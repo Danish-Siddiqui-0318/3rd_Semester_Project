@@ -76,3 +76,46 @@ E:\Aptech\Semester 3\Semester_Project\3rd_Semester_Project\Semester_Project\bin\
 E:\Aptech\Semester 3\Semester_Project\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 E:\Aptech\Semester 3\Semester_Project\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.csproj.AssemblyReference.cache
 E:\Aptech\Semester 3\Semester_Project\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester.52385A4E.Up2Date
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\appsettings.Development.json
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\appsettings.json
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\Semester_Project.staticwebassets.runtime.json
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\Semester_Project.staticwebassets.endpoints.json
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\Semester_Project.exe
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\Semester_Project.deps.json
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\Semester_Project.runtimeconfig.json
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\Semester_Project.dll
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\Semester_Project.pdb
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.csproj.AssemblyReference.cache
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.AssemblyInfoInputs.cache
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.AssemblyInfo.cs
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.csproj.CoreCompileInputs.cache
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.RazorAssemblyInfo.cache
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.RazorAssemblyInfo.cs
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.sourcelink.json
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\scopedcss\bundle\Semester_Project.styles.css
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\scopedcss\projectbundle\Semester_Project.bundle.scp.css
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\staticwebassets.build.json
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\staticwebassets.development.json
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\staticwebassets\msbuild.Semester_Project.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\staticwebassets\msbuild.Semester_Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\staticwebassets\msbuild.build.Semester_Project.props
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Semester_Project.props
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Semester_Project.props
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester.52385A4E.Up2Date
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.dll
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\refint\Semester_Project.dll
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.pdb
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\Semester_Project.genruntimeconfig.cache
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\obj\Debug\net8.0\ref\Semester_Project.dll
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\ASP.Net\3rd_Semester_Project\Semester_Project\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll

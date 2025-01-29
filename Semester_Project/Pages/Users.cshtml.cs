@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Data.SqlClient;
 using System.Data.SqlClient;
 
 
@@ -8,12 +7,12 @@ namespace Semester_Project.Pages
 {
     public class UsersModel : PageModel
     {
-        public List<UserInfo> listUsers=new List<UserInfo>();
+        public List<UserInfo> listUsers = new List<UserInfo>();
         public void OnGet()
         {
             try
             {
-                string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                string connectionString = "Data Source=DESKTOP-JCUJJ3K;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
