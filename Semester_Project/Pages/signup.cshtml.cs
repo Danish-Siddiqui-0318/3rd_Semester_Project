@@ -1,11 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System;
 using System.Data.SqlClient;
 
 namespace Semester_Project.Pages
 {
-    public class createUsersModel : PageModel
+    public class signupModel : PageModel
     {
         public UserInfo userInfo = new UserInfo();
         public string errorMessage = "";
@@ -59,6 +58,5 @@ namespace Semester_Project.Pages
 
         }
     }
-
 }
 
