@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ASP.Net\\3rd_Semester_Project\\",
+  "WorkspaceRootPath": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\signup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\signup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|e:\\aptech\\semester 3\\semester_project\\3rd_semester_project\\semester_project\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\createusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\createusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\createusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\createusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|e:\\aptech\\semester 3\\semester_project\\3rd_semester_project\\semester_project\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,62 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "createUsers.cshtml.cs",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\createUsers.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\createUsers.cshtml.cs",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\createUsers.cshtml.cs",
-              "RelativeToolTip": "Semester_Project\\Pages\\createUsers.cshtml.cs",
-              "ViewState": "AgIAAC8AAADA+f///78jwDwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T12:17:47.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "createUsers.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\createUsers.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\createUsers.cshtml",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\createUsers.cshtml",
-              "RelativeToolTip": "Semester_Project\\Pages\\createUsers.cshtml",
-              "ViewState": "AgIAAAMAAAB4OTMzM7MSwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T12:17:45.459Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "signup.cshtml.cs",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\signup.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\signup.cshtml.cs",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\signup.cshtml.cs*",
-              "RelativeToolTip": "Semester_Project\\Pages\\signup.cshtml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Title": "login.cshtml.cs",
+              "DocumentMoniker": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\login.cshtml.cs",
+              "RelativeDocumentMoniker": "Semester_Project\\Pages\\login.cshtml.cs",
+              "ToolTip": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\login.cshtml.cs",
+              "RelativeToolTip": "Semester_Project\\Pages\\login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T12:17:30.684Z",
+              "WhenOpened": "2025-01-31T12:53:38.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "signup.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\signup.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\signup.cshtml",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\signup.cshtml*",
-              "RelativeToolTip": "Semester_Project\\Pages\\signup.cshtml*",
-              "ViewState": "AgIAAAcAAAAgy8zMzMwswBAAAAAjAAAAAAAAAA==",
+              "Title": "login.cshtml",
+              "DocumentMoniker": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\login.cshtml",
+              "RelativeDocumentMoniker": "Semester_Project\\Pages\\login.cshtml",
+              "ToolTip": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\login.cshtml",
+              "RelativeToolTip": "Semester_Project\\Pages\\login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T12:17:26.907Z",
+              "WhenOpened": "2025-01-31T12:53:18.972Z",
               "EditorCaption": ""
             }
           ]
