@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Aptech\Semester 3\Semester_Project\3rd_Semester_Project\Semester_Project
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Aptech/Semester 3/Semester_Project/3rd_Semester_Project/Semester_Project/Pages/capsules.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2Fwc3VsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Aptech/Semester 3/Semester_Project/3rd_Semester_Project/Semester_Project/Pages/createUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY3JlYXRlVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
