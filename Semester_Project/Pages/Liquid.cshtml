@@ -1,5 +1,5 @@
 ﻿@page
-@model Semester_Project.Pages.CapsulesModel
+@model Semester_Project.Pages.LiquidModel
 @{
 }
 <div class="container-fluid">
@@ -27,15 +27,15 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach (var item in Model.listCapsules)
+                                    @foreach (var item in Model.listliquid)
                                     {
                                         <tr>
                                             <td>@item.id</td>
-                                            <td>@item.Product_Name</td>
-                                            <td>@item.Output</td>
-                                            <td>@item.CapsuleSizeMM</td>
-                                            <td>@item.MachineDimension</td>
-                                            <td>@item.ShippingWeightKG</td>
+                                            <td>@item.ModelName</td>
+                                            <td>@item.AirPressure</td>
+                                            <td>@item.AirVolume</td>
+                                            <td>@item.FillingSpeed</td>
+                                            <td>@item.FillingRangeML</td>
                                             <td>
                                                 <a class="btn btn-primary btn-sm" href="/updateCapsules?id=@item.id">Edit</a>
                                                 <a class="btn btn-danger btn-sm" href="/deleteCapsules?id=@item.id">Delete</a>

@@ -1,5 +1,5 @@
 ﻿@page
-@model Semester_Project.Pages.CapsulesModel
+@model Semester_Project.Pages.TabletsModel
 @{
 }
 <div class="container-fluid">
@@ -18,24 +18,30 @@
                                 <thead>
                                     <tr>
                                         <th>ID</th>
-                                        <th>Product Name</th>
-                                        <th>Output</th>
-                                        <th>CapsuleSizeMM</th>
-                                        <th>MachineDimension</th>
-                                        <th>ShippingWeightKG</th>
-                                        <th>Action</th>
+                                        <th>Model Number</th>
+                                        <th>Dies</th>
+                                        <th>MaxPressure</th>
+                                        <th>MaxDiameter</th>
+                                        <th>MaxDepth</th>
+                                        <th>Production Capacity</th>
+                                        <th>Machine Size</th>
+                                        <th>Net WeightKG</th>
+                                        <th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach (var item in Model.listCapsules)
+                                    @foreach (var item in Model.listTablets)
                                     {
                                         <tr>
                                             <td>@item.id</td>
-                                            <td>@item.Product_Name</td>
-                                            <td>@item.Output</td>
-                                            <td>@item.CapsuleSizeMM</td>
-                                            <td>@item.MachineDimension</td>
-                                            <td>@item.ShippingWeightKG</td>
+                                            <td>@item.ModelNumber</td>
+                                            <td>@item.Dies</td>
+                                            <td>@item.MaxPressure</td>
+                                            <td>@item.MaxDiameterMM</td>
+                                            <td>@item.MaxDepthFillMM</td>
+                                            <td>@item.ProductionCapacity</td>
+                                            <td>@item.MachineSize</td>
+                                            <td>@item.NetWeightKG</td>
                                             <td>
                                                 <a class="btn btn-primary btn-sm" href="/updateCapsules?id=@item.id">Edit</a>
                                                 <a class="btn btn-danger btn-sm" href="/deleteCapsules?id=@item.id">Delete</a>

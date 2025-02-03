@@ -1,10 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Semester_Project.Pages
 {
-    public class capsulesModel : PageModel
+    public class CapsulesModel : PageModel
     {
         public List<CapsulesInfo> listCapsules = new List<CapsulesInfo>();
         public void OnGet()
@@ -26,9 +27,9 @@ namespace Semester_Project.Pages
                                 capsulesInfo.id = "" + reader.GetInt32(0);
                                 capsulesInfo.Product_Name = reader.GetString(1);
                                 capsulesInfo.Output = reader.GetString(2);
-                                capsulesInfo.CapsuleSizeMM = reader.GetString(3);
+                                capsulesInfo.CapsuleSizeMM = reader.GetDecimal(3).ToString();
                                 capsulesInfo.MachineDimension = reader.GetString(4);
-                                capsulesInfo.ShippingWeightKG = reader.GetString(5);
+                                capsulesInfo.ShippingWeightKG = reader.GetDecimal(5).ToString();
                                 capsulesInfo.image = reader.GetString(6);
                                 listCapsules.Add(capsulesInfo);
                             }
