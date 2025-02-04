@@ -1,0 +1,78 @@
+﻿@page
+@model Semester_Project.Pages.updateCapsulesModel
+@{
+    ViewData["Title"] = "Update Capsule";
+}
+@* <div class="container d-flex justify-content-center align-items-center min-vh-100"> *@
+@*     <div class="row w-100"> *@
+@*         <div class="col-md-10 col-lg-8 col-xl-6 mx-auto"> *@
+@*             <div class="card shadow-lg border-0 rounded-lg"> *@
+@*                 <div class="card-header text-center bg-warning text-white"> *@
+@*                     <h3 class="mb-0">Update Capsule</h3> *@
+@*                 </div> *@
+@*                 <div class="card-body p-4"> *@
+@*                     <form method="post" enctype="multipart/form-data"> *@
+@*                         <!-- Hidden Field for CapsuleID --> *@
+@*                         <input type="text" name="ID" class="form-control" required value="@Model.ID" hidden /> *@
+@*                         <div class="form-group mb-3"> *@
+@*                             <label for="ProductName" class="fw-bold">Product Name</label> *@
+@*                             <input type="text" id="ProductName" name="ProductName" class="form-control" value="@Model.ProductName" required /> *@
+@*                         </div> *@
+@*                         <div class="form-group mb-3"> *@
+@*                             <label for="Output" class="fw-bold">Output</label> *@
+@*                             <input type="text" id="Output" name="Output" class="form-control" value="@Model.Output" required /> *@
+@*                         </div> *@
+@*                         <div class="form-group mb-3"> *@
+@*                             <label for="CapsuleSizeMM" class="fw-bold">Capsule Size (MM)</label> *@
+@*                             <input type="number" id="CapsuleSizeMM" name="CapsuleSizeMM" class="form-control" value="@Model.CapsuleSizeMM" required /> *@
+@*                         </div> *@
+@*                         <div class="form-group mb-3"> *@
+@*                             <label for="MachineDimension" class="fw-bold">Machine Dimension</label> *@
+@*                             <input type="text" id="MachineDimension" name="MachineDimension" class="form-control" value="@Model.MachineDimension" required /> *@
+@*                         </div> *@
+@*                         <div class="form-group mb-3"> *@
+@*                             <label for="ShippingWeightKG" class="fw-bold">Shipping Weight (KG)</label> *@
+@*                             <input type="number" step="0.01" id="ShippingWeightKG" name="ShippingWeightKG" class="form-control" value="@Model.ShippingWeightKG" required /> *@
+@*                         </div> *@
+
+@*                         <!-- Image Upload --> *@
+@*                         <div class="form-group mb-3"> *@
+@*                             <label for="ImageURL" class="fw-bold">Update Image (Optional)</label> *@
+@*                             <input type="file" id="ImageURL" name="ImageURL" class="form-control" accept="image/*" /> *@
+@*                         </div> *@
+
+@*                         <!-- Display Existing Image --> *@
+@*                         @if (!string.IsNullOrEmpty(Model.ImageURL)) *@
+@*                         { *@
+@*                             <div class="mb-3 text-center"> *@
+@*                                 <label class="fw-bold">Current Image:</label><br /> *@
+@*                                 <img src="@Model.ImageURL" alt="Current Image" class="img-fluid" style="max-width: 200px; border-radius: 10px;" /> *@
+@*                             </div> *@
+@*                         } *@
+
+@*                         <!-- Error & Success Messages --> *@
+@*                         @if (!string.IsNullOrEmpty(Model.ErrorMessage)) *@
+@*                         { *@
+@*                             <div class="alert alert-danger text-center"> *@
+@*                                 @Model.ErrorMessage *@
+@*                             </div> *@
+@*                         } *@
+
+@*                         @if (!string.IsNullOrEmpty(Model.SuccessMessage)) *@
+@*                         { *@
+@*                             <div class="alert alert-success text-center"> *@
+@*                                 @Model.SuccessMessage *@
+@*                             </div> *@
+@*                         } *@
+
+@*                         <div class="d-grid gap-2"> *@
+@*                             <button type="submit" asp-page-handler="Update" class="btn btn-warning btn-lg">Update</button> *@
+@*                             <a asp-page="capsules" class="btn btn-secondary btn-lg">Cancel</a> *@
+@*                         </div> *@
+@*                     </form> *@
+@*                 </div> *@
+@*             </div> *@
+@*         </div> *@
+@*     </div> *@
+@* </div> *@
+

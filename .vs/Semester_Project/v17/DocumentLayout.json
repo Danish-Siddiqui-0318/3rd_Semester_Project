@@ -1,122 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|e:\\aptech\\semester 3\\semester_project\\3rd_semester_project\\semester_project\\pages\\addcategory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\addcategory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|e:\\aptech\\semester 3\\semester_project\\3rd_semester_project\\semester_project\\pages\\capsules.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\capsules.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|e:\\aptech\\semester 3\\semester_project\\3rd_semester_project\\semester_project\\pages\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|e:\\aptech\\semester 3\\semester_project\\3rd_semester_project\\semester_project\\pages\\liquid.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\liquid.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|e:\\aptech\\semester 3\\semester_project\\3rd_semester_project\\semester_project\\pages\\liquid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\liquid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|e:\\aptech\\semester 3\\semester_project\\3rd_semester_project\\semester_project\\pages\\capsules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\capsules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\ASP.Net\\3rd_Semester_Project\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddCategory.cshtml.cs",
-              "DocumentMoniker": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\AddCategory.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\AddCategory.cshtml.cs",
-              "ToolTip": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\AddCategory.cshtml.cs",
-              "RelativeToolTip": "Semester_Project\\Pages\\AddCategory.cshtml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T13:47:10.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddCategory.cshtml",
-              "DocumentMoniker": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\AddCategory.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\AddCategory.cshtml",
-              "ToolTip": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\AddCategory.cshtml",
-              "RelativeToolTip": "Semester_Project\\Pages\\AddCategory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T13:46:02.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "capsules.cshtml.cs",
-              "DocumentMoniker": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\capsules.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\capsules.cshtml.cs",
-              "ToolTip": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\capsules.cshtml.cs",
-              "RelativeToolTip": "Semester_Project\\Pages\\capsules.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T13:34:04.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Liquid.cshtml.cs",
-              "DocumentMoniker": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\Liquid.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\Liquid.cshtml.cs",
-              "ToolTip": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\Liquid.cshtml.cs",
-              "RelativeToolTip": "Semester_Project\\Pages\\Liquid.cshtml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAUwDQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T13:33:49.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Liquid.cshtml",
-              "DocumentMoniker": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\Liquid.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\Liquid.cshtml",
-              "ToolTip": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\Liquid.cshtml",
-              "RelativeToolTip": "Semester_Project\\Pages\\Liquid.cshtml",
-              "ViewState": "AgIAAAoAAAAANDMzMzMLwCUAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T13:33:12.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "capsules.cshtml",
-              "DocumentMoniker": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\capsules.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\capsules.cshtml",
-              "ToolTip": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\capsules.cshtml",
-              "RelativeToolTip": "Semester_Project\\Pages\\capsules.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-02T11:57:54.466Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

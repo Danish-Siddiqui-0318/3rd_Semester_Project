@@ -10,8 +10,8 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="d-flex justify-content-between align-items-center">
-                            <h4>Capsules Data</h4>
-                            <a class="btn btn-success btn-sm" href="/createUsers">Add Capsule</a>
+                            <h4>Tablets Data</h4>
+                            <a class="btn btn-success btn-sm" href="/addTablets">Add Tablets</a>
                         </div>
                         <div class="card-body">
                             <table class="table table-responsive-sm table-bordered table-striped table-sm">
@@ -43,8 +43,8 @@
                                             <td>@item.MachineSize</td>
                                             <td>@item.NetWeightKG</td>
                                             <td>
-                                                <a class="btn btn-primary btn-sm" href="/updateCapsules?id=@item.id">Edit</a>
-                                                <a class="btn btn-danger btn-sm" href="/deleteCapsules?id=@item.id">Delete</a>
+                                                <a class="btn btn-primary btn-sm" href="/updateTablets?id=@item.id">Edit</a>
+                                                <a class="btn btn-danger btn-sm" href="/deleteTablets?id=@item.id">Delete</a>
                                             </td>
                                         </tr>
                                     }

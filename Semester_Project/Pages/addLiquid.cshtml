@@ -1,0 +1,64 @@
+﻿@page
+@model Semester_Project.Pages.addLiquidModel
+@{
+    ViewData["Title"] = "Add Liquids";
+}
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="row w-100">
+        <div class="col-md-10 col-lg-8 col-xl-6 mx-auto">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-header text-center bg-primary text-white">
+                    <h3 class="mb-0">Add Liquids</h3>
+                </div>
+                <div class="card-body p-4">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group mb-3">
+                            <label for="ModelName" class="fw-bold">Model Name</label>
+                            <input type="text" id="ModelName" name="ModelName" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="AirPressure" class="fw-bold">Air Pressure</label>
+                            <input type="number" step="0.01" id="AirPressure" name="AirPressure" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="AirVolume" class="fw-bold">Air Volume</label>
+                            <input type="text" id="AirVolume" name="AirVolume" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="FillingSpeed" class="fw-bold">Filling Speed</label>
+                            <input type="number" step="0.01" id="FillingSpeed" name="FillingSpeed" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="FillingRangeML" class="fw-bold">Filling Range (ML)</label>
+                            <input type="number" step="0.01" id="FillingRangeML" name="FillingRangeML" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="ImageURL" class="fw-bold">Add Image</label>
+                            <input type="file" id="ImageURL" name="ImageURL" class="form-control" accept="image/*" required />
+                        </div>
+
+                        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                        {
+                            <div class="alert alert-danger text-center">
+                                @Model.ErrorMessage
+                            </div>
+                        }
+
+                        @if (!string.IsNullOrEmpty(Model.SuccessMessage))
+                        {
+                            <div class="alert alert-success text-center">
+                                @Model.SuccessMessage
+                            </div>
+                        }
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            <a asp-page="Liquid" class="btn btn-danger btn-lg">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

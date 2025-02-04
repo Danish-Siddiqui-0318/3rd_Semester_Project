@@ -1,0 +1,76 @@
+﻿@page
+@model Semester_Project.Pages.addTabletsModel
+@{
+    ViewData["Title"] = "Add Tablets";
+}
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="row w-100">
+        <div class="col-md-10 col-lg-8 col-xl-6 mx-auto">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-header text-center bg-primary text-white">
+                    <h3 class="mb-0">Add Tablets</h3>
+                </div>
+                <div class="card-body p-4">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group mb-3">
+                            <label for="ModelNumber" class="fw-bold">Model Number</label>
+                            <input type="text" id="ModelNumber" name="ModelNumber" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="Dies" class="fw-bold">Dies</label>
+                            <input type="text" id="Dies" name="Dies" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="MaxPressure" class="fw-bold">Max Pressure</label>
+                            <input type="number" step="0.01" id="MaxPressure" name="MaxPressure" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="MaxDiameterMM" class="fw-bold">Max Diameter (MM)</label>
+                            <input type="number" step="0.01" id="MaxDiameterMM" name="MaxDiameterMM" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="MaxDepthFillMM" class="fw-bold">Max Depth Fill (MM)</label>
+                            <input type="number" step="0.01" id="MaxDepthFillMM" name="MaxDepthFillMM" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="ProductionCapacity" class="fw-bold">Production Capacity</label>
+                            <input type="text" id="ProductionCapacity" name="ProductionCapacity" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="MachineSize" class="fw-bold">Machine Size</label>
+                            <input type="text" id="MachineSize" name="MachineSize" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="NetWeightKG" class="fw-bold">Net Weight (KG)</label>
+                            <input type="number" step="0.01" id="NetWeightKG" name="NetWeightKG" class="form-control" required />
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="ImageURL" class="fw-bold">Add Image</label>
+                            <input type="file" id="ImageURL" name="ImageURL" class="form-control" accept="image/*" required />
+                        </div>
+
+                        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                        {
+                            <div class="alert alert-danger text-center">
+                                @Model.ErrorMessage
+                            </div>
+                        }
+
+                        @if (!string.IsNullOrEmpty(Model.SuccessMessage))
+                        {
+                            <div class="alert alert-success text-center">
+                                @Model.SuccessMessage
+                            </div>
+                        }
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            <a asp-page="Tablets" class="btn btn-danger btn-lg">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
