@@ -20,7 +20,7 @@ namespace Semester_Project.Pages
             userInfo.email = Request.Form["email"];
             userInfo.password = Request.Form["password"];
             userInfo.role = Request.Form["role"];
-            if (userInfo.name.Length == 0 || userInfo.email.Length == 0 || userInfo.password.Length == 0 || userInfo.role.Length == 0)
+            if (userInfo.name.Length == 0 || userInfo.email.Length == 0 || userInfo.password.Length == 0 )
             {
                 errorMessage = "All Fields should be filled";
                 return;
@@ -28,7 +28,7 @@ namespace Semester_Project.Pages
 
             try
             {
-                String connectionString = "Data Source=DESKTOP-JCUJJ3K;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                String connectionString = "Data Source=DANISHPC\\\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False\"";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
