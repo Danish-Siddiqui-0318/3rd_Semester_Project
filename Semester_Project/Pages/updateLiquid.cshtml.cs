@@ -2,13 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;
 
-
-
 namespace Semester_Project.Pages
 {
-    public class updateCapsulesModel : PageModel
+    public class updateLiquidModel : PageModel
     {
-        public CapsulesInfo capsuleInfo = new CapsulesInfo();
+        public LiquidInfo liquidInfo = new LiquidInfo();
         public string errorMessage = "";
         public string successMessage = "";
 
@@ -21,7 +19,7 @@ namespace Semester_Project.Pages
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    String sql = "select * from Capsules where ID=@id";
+                    String sql = "select * from LiquidFilling where ID=@id";
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
                         command.Parameters.AddWithValue("@id", id);
@@ -29,13 +27,13 @@ namespace Semester_Project.Pages
                         {
                             if (reader.Read())
                             {
-                                capsuleInfo.id = "" + reader.GetInt32(0);
-                                capsuleInfo.Product_Name = reader.GetString(1);
-                                capsuleInfo.Output = reader.GetString(2);
-                                capsuleInfo.CapsuleSizeMM = reader.GetDecimal(3).ToString();
-                                capsuleInfo.MachineDimension = reader.GetString(4);
-                                capsuleInfo.ShippingWeightKG = reader.GetDecimal(5).ToString();
-                                capsuleInfo.image = reader.GetString(6);
+                                liquidInfo.id = "" + reader.GetInt32(0);
+                                liquidInfo.ModelName = reader.GetString(1);
+                                liquidInfo.AirPressure = reader.GetDecimal(2).ToString();
+                                liquidInfo.AirVolume = reader.GetString(3);
+                                liquidInfo.FillingSpeed = reader.GetInt32(4).ToString();
+                                liquidInfo.FillingRangeML = reader.GetString(5);
+                                liquidInfo.image = reader.GetString(6);
 
                             }
                         }
@@ -48,45 +46,44 @@ namespace Semester_Project.Pages
                 return;
             }
         }
-        public IActionResult OnPost(string id, string ProductName, string Output, decimal CapsuleSizeMM, string MachineDimension, decimal ShippingWeightKG, IFormFile ImageURL)
+        public IActionResult OnPost(string id, string ModelName, decimal AirPressure, string AirVolume, int FillingSpeed, string FillingRangeML, IFormFile ImageURL)
         {
-         
-            if (string.IsNullOrEmpty(ProductName))
+            if (string.IsNullOrEmpty(ModelName))
             {
-                errorMessage = "Product name is required.";
+                errorMessage = "Model Name is required.";
                 return Page();
             }
 
-            if (string.IsNullOrEmpty(Output))
+            if (AirPressure <= 0)
             {
-                errorMessage = "Output is required.";
+                errorMessage = "Air Pressure must be greater than 0.";
                 return Page();
             }
 
-            if (CapsuleSizeMM <= 0)
+            if (string.IsNullOrEmpty(AirVolume))
             {
-                errorMessage = "Capsule Size MM must be greater than 0.";
+                errorMessage = "Air Volume is required.";
                 return Page();
             }
 
-            if (string.IsNullOrEmpty(MachineDimension))
+            if (FillingSpeed <= 0)
             {
-                errorMessage = "Machine Dimension is required.";
+                errorMessage = "Filling Speed must be greater than 0.";
                 return Page();
             }
 
-            if (ShippingWeightKG <= 0)
+            if (string.IsNullOrEmpty(FillingRangeML))
             {
-                errorMessage = "Shipping Weight KG must be greater than 0.";
+                errorMessage = "Filling Range (ML) is required.";
                 return Page();
             }
+
             if (ImageURL == null || ImageURL.Length == 0)
             {
                 errorMessage = "Product image is required.";
                 return Page();
             }
 
-           
             // Generate a unique file name for the uploaded image
             string fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageURL.FileName);
             string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
@@ -98,28 +95,37 @@ namespace Semester_Project.Pages
                 {
                     ImageURL.CopyTo(stream);
                 }
+
+                // Save product info to the database
                 string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    string query = "UPDATE Capsules SET ProductName = @ProductName, Output = @Output, CapsuleSizeMM = @CapsuleSizeMM, MachineDimension = @MachineDimension, ShippingWeightKG = @ShippingWeightKG, ImageURL = @ImageURL WHERE ID = @id";
+                    string query = @"UPDATE LiquidFilling 
+                 SET ModelName = @ModelName, 
+                     AirPressure = @AirPressure, 
+                     AirVolume = @AirVolume, 
+                     FillingSpeed = @FillingSpeed, 
+                     FillingRangeML = @FillingRangeML, 
+                     ImageURL = @ImageURL 
+                 WHERE ID = @id";
 
                     using (SqlCommand cmd = new SqlCommand(query, connection))
                     {
                         cmd.Parameters.AddWithValue("@id", id);
-                        cmd.Parameters.AddWithValue("@ProductName", ProductName);
-                        cmd.Parameters.AddWithValue("@Output", Output);
-                        cmd.Parameters.AddWithValue("@CapsuleSizeMM", CapsuleSizeMM);
-                        cmd.Parameters.AddWithValue("@MachineDimension", MachineDimension);
-                        cmd.Parameters.AddWithValue("@ShippingWeightKG", ShippingWeightKG);
-                        cmd.Parameters.AddWithValue("@ImageURL", "/images/" + fileName);
+                        cmd.Parameters.AddWithValue("@ModelName", ModelName);
+                        cmd.Parameters.AddWithValue("@AirPressure", AirPressure);
+                        cmd.Parameters.AddWithValue("@AirVolume", AirVolume);
+                        cmd.Parameters.AddWithValue("@FillingSpeed", FillingSpeed);
+                        cmd.Parameters.AddWithValue("@FillingRangeML", FillingRangeML);
+                        cmd.Parameters.AddWithValue("@ImageURL", "/images/" + fileName); // Save the file path
 
                         cmd.ExecuteNonQuery();
                     }
                 }
 
-                successMessage = "Capsule updated successfully!";
-                return RedirectToPage("/capsules");
+                successMessage = "Liquid added successfully!";
+                return RedirectToPage("/Liquid");
             }
             catch (Exception ex)
             {
