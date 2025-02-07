@@ -10,9 +10,15 @@ namespace Semester_Project.Pages
         public List<UserInfo> listUsers = new List<UserInfo>();
         public void OnGet()
         {
+            string role = HttpContext.Session.GetString("role");
+            if (role != "admin")
+            {
+                // If the user is not an admin, redirect them to the login page
+                Response.Redirect("/Login");
+            }
             try
             {
-                string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
@@ -30,7 +36,7 @@ namespace Semester_Project.Pages
                                 userInfo.password = reader.GetString(3);
                                 userInfo.role = reader.GetString(4);
                                 userInfo.created_at = reader.GetDateTime(5).ToString();
-                                userInfo.updated_at = reader.GetDateTime(6  ).ToString();
+                                userInfo.updated_at = reader.GetDateTime(6).ToString();
                                 listUsers.Add(userInfo);
                             }
                         }

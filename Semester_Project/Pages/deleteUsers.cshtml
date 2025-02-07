@@ -4,7 +4,7 @@
     try
     {
         String id = Request.Query["id"];
-        String connectionString = "Data Source=DESKTOP-JCUJJ3K;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False"; 
+        String connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
         using (SqlConnection connection = new SqlConnection(connectionString))
         {
             connection.Open();

@@ -52,6 +52,9 @@ namespace Semester_Project.Pages
                                 {
                                     Response.Redirect("/Index");
                                 }
+                                else {
+                                    Response.Redirect("/Login");
+                                }
                             }
                             else
                             {
