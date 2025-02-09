@@ -33,7 +33,6 @@ namespace Semester_Project.Pages
         {
             // Clear the session data
             HttpContext.Session.Clear();
-            Console.WriteLine("asfasf");
             // Redirect to login page after logging out
             return RedirectToPage("/Login");
         }
