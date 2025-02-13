@@ -64,9 +64,9 @@ wwwroot\frontimg\elements\primary-check.png
 wwwroot\frontimg\elements\primary-radio.png
 wwwroot\frontimg\elements\success-check.png
 wwwroot\frontimg\elements\success-radio.png
-wwwroot\frontimg\experts\1.png
-wwwroot\frontimg\experts\2.png
-wwwroot\frontimg\experts\3.png
+wwwroot\frontimg\experts\1.jpg
+wwwroot\frontimg\experts\2.jpg
+wwwroot\frontimg\experts\3.jpg
 wwwroot\frontimg\experts\4.png
 wwwroot\frontimg\experts\5.png
 wwwroot\frontimg\experts\6.png
@@ -104,13 +104,6 @@ wwwroot\frontimg\rooms\4.png
 wwwroot\frontimg\testmonial\1.png
 wwwroot\frontimg\testmonial\2.png
 wwwroot\frontimg\video\video.png
-wwwroot\images\595beff8-bcc6-43db-a688-3685c29fa145.jpg
-wwwroot\images\a430bebe-f21b-4948-96ac-361f64c382b3.jpg
-wwwroot\images\b3e5aeda-ad1a-4c5f-8e52-0aeb119c4443.jpg
-wwwroot\images\cda307f6-43ef-4bde-b41a-561261af30a6.jpg
-wwwroot\images\e1e7cc86-9b7a-49c3-8402-a1df447dcdcd.jpg
-wwwroot\images\edbad7d1-4e77-4260-aad0-5b8821d39d97.jpg
-wwwroot\images\f64133ed-1186-46fe-8267-b119390171c3.jpg
 wwwroot\js\ajax-form.js
 wwwroot\js\bootstrap.min.js
 wwwroot\js\contact.js

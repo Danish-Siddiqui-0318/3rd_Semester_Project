@@ -1,788 +1,764 @@
 {
   "Files": [
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Semester_Project.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Semester_Project.bundle.scp.css"
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Semester_Project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Semester_Project.up6eudxg3v.bundle.scp.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\animate.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\flaticon.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\flaticon.css",
       "PackagePath": "staticwebassets\\css\\flaticon.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\gijgo.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\gijgo.css",
       "PackagePath": "staticwebassets\\css\\gijgo.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\magnific-popup.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\css\\magnific-popup.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\nice-select.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\nice-select.css",
       "PackagePath": "staticwebassets\\css\\nice-select.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\owl.carousel.min.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\site.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\slicknav.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\slicknav.css",
       "PackagePath": "staticwebassets\\css\\slicknav.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\style.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\style.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\style.map",
       "PackagePath": "staticwebassets\\css\\style.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\theme-default.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\theme-default.css",
       "PackagePath": "staticwebassets\\css\\theme-default.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\theme-default.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\theme-default.map",
       "PackagePath": "staticwebassets\\css\\theme-default.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\themify-icons.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\css\\themify-icons.css",
       "PackagePath": "staticwebassets\\css\\themify-icons.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\favicon.ico",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\about\\1.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\about\\1.jpg",
       "PackagePath": "staticwebassets\\frontimg\\about\\1.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\about\\business.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\about\\business.png",
       "PackagePath": "staticwebassets\\frontimg\\about\\business.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\banner.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\banner.png",
       "PackagePath": "staticwebassets\\frontimg\\banner\\banner.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\bradcam.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\bradcam.png",
       "PackagePath": "staticwebassets\\frontimg\\banner\\bradcam.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\bradcam2.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\bradcam2.png",
       "PackagePath": "staticwebassets\\frontimg\\banner\\bradcam2.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\department.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\department.jpg",
       "PackagePath": "staticwebassets\\frontimg\\banner\\department.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\emergency_1.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\emergency_1.jpg",
       "PackagePath": "staticwebassets\\frontimg\\banner\\emergency_1.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\emergency_2.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\emergency_2.jpg",
       "PackagePath": "staticwebassets\\frontimg\\banner\\emergency_2.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\form_bg.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\banner\\form_bg.jpg",
       "PackagePath": "staticwebassets\\frontimg\\banner\\form_bg.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\author.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\author.png",
       "PackagePath": "staticwebassets\\frontimg\\blog\\author.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\blog_1.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\blog_1.png",
       "PackagePath": "staticwebassets\\frontimg\\blog\\blog_1.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\blog_2.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\blog_2.png",
       "PackagePath": "staticwebassets\\frontimg\\blog\\blog_2.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\blog_3.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\blog_3.png",
       "PackagePath": "staticwebassets\\frontimg\\blog\\blog_3.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\blog_4.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\blog_4.png",
       "PackagePath": "staticwebassets\\frontimg\\blog\\blog_4.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\learn_about_bg.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\learn_about_bg.png",
       "PackagePath": "staticwebassets\\frontimg\\blog\\learn_about_bg.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\single_blog_1.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\single_blog_1.png",
       "PackagePath": "staticwebassets\\frontimg\\blog\\single_blog_1.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\single_blog_2.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\single_blog_2.png",
       "PackagePath": "staticwebassets\\frontimg\\blog\\single_blog_2.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\single_blog_3.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\single_blog_3.png",
       "PackagePath": "staticwebassets\\frontimg\\blog\\single_blog_3.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\single_blog_4.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\single_blog_4.png",
       "PackagePath": "staticwebassets\\frontimg\\blog\\single_blog_4.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\single_blog_5.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\single_blog_5.png",
       "PackagePath": "staticwebassets\\frontimg\\blog\\single_blog_5.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\slide_thumb_1.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\blog\\slide_thumb_1.png",
       "PackagePath": "staticwebassets\\frontimg\\blog\\slide_thumb_1.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\comment\\comment_1.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\comment\\comment_1.png",
       "PackagePath": "staticwebassets\\frontimg\\comment\\comment_1.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\comment\\comment_2.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\comment\\comment_2.png",
       "PackagePath": "staticwebassets\\frontimg\\comment\\comment_2.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\comment\\comment_3.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\comment\\comment_3.png",
       "PackagePath": "staticwebassets\\frontimg\\comment\\comment_3.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\department\\1.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\department\\1.jpg",
       "PackagePath": "staticwebassets\\frontimg\\department\\1.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\a.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\a.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\a.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\a2.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\a2.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\a2.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\d.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\d.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\d.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\disabled-check.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\disabled-check.png",
       "PackagePath": "staticwebassets\\frontimg\\elements\\disabled-check.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\disabled-radio.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\disabled-radio.png",
       "PackagePath": "staticwebassets\\frontimg\\elements\\disabled-radio.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f1.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f1.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\f1.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f2.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f2.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\f2.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f3.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f3.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\f3.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f4.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f4.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\f4.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f5.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f5.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\f5.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f6.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f6.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\f6.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f7.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f7.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\f7.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f8.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\f8.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\f8.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g1.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g1.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\g1.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g2.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g2.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\g2.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g3.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g3.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\g3.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g4.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g4.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\g4.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g5.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g5.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\g5.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g6.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g6.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\g6.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g7.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g7.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\g7.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g8.jpg",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\g8.jpg",
       "PackagePath": "staticwebassets\\frontimg\\elements\\g8.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\primary-check.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\primary-check.png",
       "PackagePath": "staticwebassets\\frontimg\\elements\\primary-check.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\primary-radio.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\primary-radio.png",
       "PackagePath": "staticwebassets\\frontimg\\elements\\primary-radio.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\success-check.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\success-check.png",
       "PackagePath": "staticwebassets\\frontimg\\elements\\success-check.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\success-radio.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\elements\\success-radio.png",
       "PackagePath": "staticwebassets\\frontimg\\elements\\success-radio.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\1.png",
-      "PackagePath": "staticwebassets\\frontimg\\experts\\1.png"
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\1.jpg",
+      "PackagePath": "staticwebassets\\frontimg\\experts\\1.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\2.png",
-      "PackagePath": "staticwebassets\\frontimg\\experts\\2.png"
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\2.jpg",
+      "PackagePath": "staticwebassets\\frontimg\\experts\\2.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\3.png",
-      "PackagePath": "staticwebassets\\frontimg\\experts\\3.png"
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\3.jpg",
+      "PackagePath": "staticwebassets\\frontimg\\experts\\3.jpg"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\4.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\4.png",
       "PackagePath": "staticwebassets\\frontimg\\experts\\4.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\5.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\5.png",
       "PackagePath": "staticwebassets\\frontimg\\experts\\5.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\6.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\6.png",
       "PackagePath": "staticwebassets\\frontimg\\experts\\6.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\7.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\7.png",
       "PackagePath": "staticwebassets\\frontimg\\experts\\7.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\8.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\8.png",
       "PackagePath": "staticwebassets\\frontimg\\experts\\8.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\9.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\experts\\9.png",
       "PackagePath": "staticwebassets\\frontimg\\experts\\9.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\favicon.ico",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\favicon.ico",
       "PackagePath": "staticwebassets\\frontimg\\favicon.ico"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\favicon.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\favicon.png",
       "PackagePath": "staticwebassets\\frontimg\\favicon.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\footer_logo.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\footer_logo.png",
       "PackagePath": "staticwebassets\\frontimg\\footer_logo.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\instragram\\1.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\instragram\\1.png",
       "PackagePath": "staticwebassets\\frontimg\\instragram\\1.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\instragram\\2.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\instragram\\2.png",
       "PackagePath": "staticwebassets\\frontimg\\instragram\\2.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\instragram\\3.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\instragram\\3.png",
       "PackagePath": "staticwebassets\\frontimg\\instragram\\3.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\instragram\\4.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\instragram\\4.png",
       "PackagePath": "staticwebassets\\frontimg\\instragram\\4.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\instragram\\5.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\instragram\\5.png",
       "PackagePath": "staticwebassets\\frontimg\\instragram\\5.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\logo.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\logo.png",
       "PackagePath": "staticwebassets\\frontimg\\logo.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\offers\\1.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\offers\\1.png",
       "PackagePath": "staticwebassets\\frontimg\\offers\\1.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\offers\\2.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\offers\\2.png",
       "PackagePath": "staticwebassets\\frontimg\\offers\\2.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\offers\\3.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\offers\\3.png",
       "PackagePath": "staticwebassets\\frontimg\\offers\\3.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\next.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\next.png",
       "PackagePath": "staticwebassets\\frontimg\\post\\next.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_1.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_1.png",
       "PackagePath": "staticwebassets\\frontimg\\post\\post_1.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_10.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_10.png",
       "PackagePath": "staticwebassets\\frontimg\\post\\post_10.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_2.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_2.png",
       "PackagePath": "staticwebassets\\frontimg\\post\\post_2.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_3.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_3.png",
       "PackagePath": "staticwebassets\\frontimg\\post\\post_3.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_4.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_4.png",
       "PackagePath": "staticwebassets\\frontimg\\post\\post_4.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_5.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_5.png",
       "PackagePath": "staticwebassets\\frontimg\\post\\post_5.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_6.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_6.png",
       "PackagePath": "staticwebassets\\frontimg\\post\\post_6.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_7.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_7.png",
       "PackagePath": "staticwebassets\\frontimg\\post\\post_7.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_8.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_8.png",
       "PackagePath": "staticwebassets\\frontimg\\post\\post_8.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_9.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\post_9.png",
       "PackagePath": "staticwebassets\\frontimg\\post\\post_9.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\preview.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\post\\preview.png",
       "PackagePath": "staticwebassets\\frontimg\\post\\preview.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\rooms\\1.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\rooms\\1.png",
       "PackagePath": "staticwebassets\\frontimg\\rooms\\1.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\rooms\\2.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\rooms\\2.png",
       "PackagePath": "staticwebassets\\frontimg\\rooms\\2.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\rooms\\3.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\rooms\\3.png",
       "PackagePath": "staticwebassets\\frontimg\\rooms\\3.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\rooms\\4.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\rooms\\4.png",
       "PackagePath": "staticwebassets\\frontimg\\rooms\\4.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\testmonial\\1.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\testmonial\\1.png",
       "PackagePath": "staticwebassets\\frontimg\\testmonial\\1.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\testmonial\\2.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\testmonial\\2.png",
       "PackagePath": "staticwebassets\\frontimg\\testmonial\\2.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\video\\video.png",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\frontimg\\video\\video.png",
       "PackagePath": "staticwebassets\\frontimg\\video\\video.png"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\images\\595beff8-bcc6-43db-a688-3685c29fa145.jpg",
-      "PackagePath": "staticwebassets\\images\\595beff8-bcc6-43db-a688-3685c29fa145.jpg"
-    },
-    {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\images\\a430bebe-f21b-4948-96ac-361f64c382b3.jpg",
-      "PackagePath": "staticwebassets\\images\\a430bebe-f21b-4948-96ac-361f64c382b3.jpg"
-    },
-    {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\images\\b3e5aeda-ad1a-4c5f-8e52-0aeb119c4443.jpg",
-      "PackagePath": "staticwebassets\\images\\b3e5aeda-ad1a-4c5f-8e52-0aeb119c4443.jpg"
-    },
-    {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\images\\cda307f6-43ef-4bde-b41a-561261af30a6.jpg",
-      "PackagePath": "staticwebassets\\images\\cda307f6-43ef-4bde-b41a-561261af30a6.jpg"
-    },
-    {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\images\\e1e7cc86-9b7a-49c3-8402-a1df447dcdcd.jpg",
-      "PackagePath": "staticwebassets\\images\\e1e7cc86-9b7a-49c3-8402-a1df447dcdcd.jpg"
-    },
-    {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\images\\edbad7d1-4e77-4260-aad0-5b8821d39d97.jpg",
-      "PackagePath": "staticwebassets\\images\\edbad7d1-4e77-4260-aad0-5b8821d39d97.jpg"
-    },
-    {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\images\\f64133ed-1186-46fe-8267-b119390171c3.jpg",
-      "PackagePath": "staticwebassets\\images\\f64133ed-1186-46fe-8267-b119390171c3.jpg"
-    },
-    {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\ajax-form.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\ajax-form.js",
       "PackagePath": "staticwebassets\\js\\ajax-form.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\contact.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\contact.js",
       "PackagePath": "staticwebassets\\js\\contact.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\gijgo.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\gijgo.min.js",
       "PackagePath": "staticwebassets\\js\\gijgo.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\imagesloaded.pkgd.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\imagesloaded.pkgd.min.js",
       "PackagePath": "staticwebassets\\js\\imagesloaded.pkgd.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\isotope.pkgd.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\isotope.pkgd.min.js",
       "PackagePath": "staticwebassets\\js\\isotope.pkgd.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery-1.12.4.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery-1.12.4.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-1.12.4.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.ajaxchimp.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.ajaxchimp.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.ajaxchimp.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.counterup.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.counterup.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.form.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.form.js",
       "PackagePath": "staticwebassets\\js\\jquery.form.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.magnific-popup.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.scrollUp.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.scrollUp.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.slicknav.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.slicknav.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.slicknav.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.validate.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\mail-script.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\mail-script.js",
       "PackagePath": "staticwebassets\\js\\mail-script.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\main.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\modernizr-3.5.0.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\modernizr-3.5.0.min.js",
       "PackagePath": "staticwebassets\\js\\modernizr-3.5.0.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\nice-select.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\nice-select.min.js",
       "PackagePath": "staticwebassets\\js\\nice-select.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\owl.carousel.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\plugins.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\plugins.js",
       "PackagePath": "staticwebassets\\js\\plugins.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\popper.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\js\\popper.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\scrollIt.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\scrollIt.js",
       "PackagePath": "staticwebassets\\js\\scrollIt.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\site.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\waypoints.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\waypoints.min.js",
       "PackagePath": "staticwebassets\\js\\waypoints.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\wow.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\js\\wow.min.js",
       "PackagePath": "staticwebassets\\js\\wow.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Semester_Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Semester_Project.Microsoft.AspNetCore.StaticWebAssets.props",

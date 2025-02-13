@@ -1,5 +1,5 @@
 ﻿@page
-@model Semester_Project.Pages.frontend.IndexModel
+@model Semester_Project.Pages.frontend.contactModel
 @{
 }
 <head>
@@ -25,58 +25,53 @@
     <link rel="stylesheet" href="~/css/slicknav.css">
     <link rel="stylesheet" href="~/css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <style>
-        .slider_area {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-            margin-top: 1000px;
-                  }
+       
 
-        .slider_bg {
+        
+
+        .social-icons-top {
             position: absolute;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
-            
+            top: 20px;
+            right: 20px;
         }
 
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-        }
-
-        .slider_text {
-            position: relative;
-            text-align: center;
-            color: #fff;
-            z-index: 2;
-        }
-
-            .slider_text h3 {
-                font-size: 3rem;
-                font-weight: bold;
-                color: aliceblue;
+            .social-icons-top a {
+                font-size: 20px;
+                margin: 0 8px;
+                color: white;
+                transition: 0.3s;
             }
 
-        .boxed-btn5 {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
+                .social-icons-top a:hover {
+                    color: #f8f9fa;
+                }
+
+        .contact-card {
+            background: white;
+            color: black;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+            .contact-card i {
+                font-size: 28px;
+                color: #007bff;
+                margin-bottom: 10px;
+            }
+
+        .map-container {
             margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
         }
     </style>
-    
+
+
 </head>
 <body>
     <!--[if lte IE 9]>
@@ -89,7 +84,7 @@
                 <div class="container ">
                     <div class="row align-items-center">
                         <div class="col-xl-3 col-lg-3">
-                            <div class="logo-img">  
+                            <div class="logo-img">
                                 <a href="index.html">
                                     <img src="frontimg/logo.png" alt="">
                                 </a>
@@ -101,7 +96,7 @@
                                     <div class="main-menu ">
                                         <nav>
                                             <ul id="navigation">
-                                                <li><a asp-area="" asp-page="/Index">Home</a></li>
+                                                <li><a asp-area="" asp-page="/frontend/Index">Home</a></li>
                                                 <li><a asp-area="" asp-page="/frontend/about">About</a></li>
                                                 <li>
                                                     <a href="#">Products <i class="ti-angle-down"></i></a>
@@ -134,53 +129,74 @@
             </div>
         </div>
     </header>
-    <!-- header-end -->
-    <!-- slider_area_start -->
-    <div class="slider_area mt-5 d-flex align-items-center justify-content-center">
-        <img src="~/frontimg/banner/banner.png" alt="Medical Center" class="slider_bg">
-        <div class="overlay"></div>
-        <div class="container text-center text-white">
-            <div class="slider_text">
-                <span>The Best Medical Center</span>
-                <h3>Bringing health<br>to life for the whole family.</h3>
-                <a href="#" class="boxed-btn5">Discover More</a>
+
+    
+
+    <div class="container mt-5">
+        <!-- Contact Us Header -->
+        <div class="text-center mb-4">
+            <h1 class="fw-bold">📞 Contact Us</h1>
+            <p class="fs-5">We are here to assist you. Reach out to us for inquiries, partnerships, and support.</p>
+        </div>
+
+        <!-- Contact Cards -->
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="contact-card">
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <h5>Our Address</h5>
+                    <p>123 Pharma Street, New York, USA</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-card">
+                    <i class="fa-solid fa-phone"></i>
+                    <h5>Call Us</h5>
+                    <p><a href="tel:+15551234567" class="text-dark">+1 (555) 123-4567</a></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h5>Email Us</h5>
+                    <p><a href="mailto:contact@pharma.com" class="text-dark">contact@pharma.com</a></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h5>Website</h5>
+                    <p><a href="https://www.pharma.com" target="_blank" class="text-dark">www.pharma.com</a></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-card">
+                    <i class="fa-solid fa-clock"></i>
+                    <h5>Business Hours</h5>
+                    <p>Mon - Fri, 9 AM - 6 PM</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-card">
+                    <i class="fa-solid fa-share-alt"></i>
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <!-- Google Map -->
+        <div class="map-container">
+            <iframe  height="350" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093676!2d144.9537353153575!3d-37.816279742021024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5dfde8fffd%3A0xc5a6df5de2feee0!2sPharmaceutical%20Company!5e0!3m2!1sen!2sus!4v1635251669658!5m2!1sen!2us" style="border:0; width:100%" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
     </div>
 
-    <!-- slider_area_end -->
-    <!-- welcome_clicnic_area_start -->
-    <div class="welcome_clicnic_area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="welcome_thumb">
-                        <div class="thumb_1">
-                            <img src="frontimg/about/1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6">
-                    <div class="welcome_docmed_info">
-                        <h3>
-                            Welcome To
-                            <span>Modern Clinic.</span>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veni.</p>
-                        <ul>
-                            <li> <i class="flaticon-verified"></i> Lorem ipsum dolor sit amet </li>
-                            <li> <i class="flaticon-verified"></i> Consectetur adipisicing elit, sed do</li>
-                            <li> <i class="flaticon-verified"></i> Eiusmod tempor incididunt ut labore </li>
-                        </ul>
-                        <a href="about.html" class="boxed-btn6">About us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- welcome_clicnic_area_end -->
-    
-    
+
     <footer class="footer">
         <div class="footer_top">
             <div class="container">
@@ -231,11 +247,11 @@
                                 <li><a href="#">Capsuls</a></li>
                                 <li><a href="#">Tablets</a></li>
                                 <li><a href="#">Liquid</a></li>
-                                
+
                             </ul>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
         </div>
@@ -301,4 +317,4 @@
             $('.js-example-basic-multiple').select2();
         });
     </script>
-</body>
+    </body>
