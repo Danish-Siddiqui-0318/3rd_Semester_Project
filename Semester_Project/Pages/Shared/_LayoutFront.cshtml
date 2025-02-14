@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <title>@ViewBag.Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+   
+
+    <style>
+        /* Navbar Styling */
+        .navbar {
+            background: #ffffff;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar-nav {
+            margin: auto;
+        }
+
+        .nav-item {
+            padding: 0 10px;
+        }
+
+        .nav-link {
+            font-weight: 500;
+            transition: all 0.3s ease-in-out;
+            position: relative;
+        }
+            /* Hover Effect */
+            .nav-link:hover {
+                color: #0d6efd;
+                transform: scale(1.1);
+            }
+        /* Dropdown Hover */
+        .dropdown-menu {
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown-item {
+            transition: all 0.3s ease-in-out;
+        }
+
+            .dropdown-item:hover {
+                background-color: black;
+                color: white;
+            }
+        /* Button Styling */
+        .btn-custom {
+            border-radius: 25px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: #0d6efd;
+            color: white;
+        }
+
+        .btn-primary {
+            background-color: #0d6efd;
+            border: none;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+
+        footer {
+            background: #ffffff;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            
+           
+        }
+
+        .social-icons a {
+            color: black;
+            font-size: 20px;
+            margin: 0 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+            .social-icons a:hover {
+                color: darkslategrey;
+                transform: scale(1.2);
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="~/frontimg/logo.png" alt="" width="40" height="40">
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/frontend/index">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/frontend/about">About Us</a></li>
+
+                    <!-- Dropdown Menu for Products -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" asp-page="/frontend/ProductCapsules">Capsules Encapsulation</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-page="/frontend/ProductTablets">Tablets</a></li>
+                            <li><a class="dropdown-item" href="#">Liquid Filling</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/frontend/contact">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/frontend/quote">Quote</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Admin</a></li>
+                </ul>
+
+                <!-- Login and Signup Buttons -->
+                <div class="d-flex">
+                    <a asp-area="" asp-page="/frontend/Login" class="btn btn-outline-dark btn-custom me-2">Login</a>
+                    <a asp-area="" asp-page="/frontend/Signup" class="btn btn-dark btn-custom">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer class="text-dark text-center py-3 ">
+        <div class="container">
+            <p class="mb-1 fw-bold">© 2025 MyCompany. All Rights Reserved.</p>
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

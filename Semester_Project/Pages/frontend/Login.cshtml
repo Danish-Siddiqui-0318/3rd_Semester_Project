@@ -1,0 +1,101 @@
+﻿@page
+@model Semester_Project.Pages.frontend.LoginModel
+@{
+    Layout = "_LayoutFront";
+}
+
+
+<html lang="en">
+<head>
+
+    <!-- Font Awesome CDN for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        .gradient-custom {
+            background: linear-gradient(to right, #C9D6FF, #E2E2E2);
+        }
+
+        .card {
+            border-radius: 1rem;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-outline-light {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn-custom {
+            border-radius: 25px;
+            transition: all 0.3s ease-in-out;
+        }
+
+
+
+        .social-icons a {
+            color: black;
+            font-size: 1.2rem;
+            margin: 0 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+            .social-icons a:hover {
+                transform: scale(1.2);
+            }
+    </style>
+</head>
+
+<body>
+    <section class="min-vh-100 gradient-custom ">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div class="card bg-light text-black">
+                        <div class="card-body p-5 text-center">
+
+                            <div class="mb-md-5 mt-md-4 pb-5">
+                                <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+                                <p class="text-muted mb-5">Please enter your login and password!</p>
+
+                                <div class="form-outline form-white mb-4">
+                                    <input type="email" id="email" class="form-control form-control-lg" />
+                                    <label class="form-label" for="email">Email</label>
+                                </div>
+
+                                <div class="form-outline form-white mb-4">
+                                    <input type="password" id="password" class="form-control form-control-lg" />
+                                    <label class="form-label" for="password">Password</label>
+                                </div>
+
+                                <p class="small mb-5 pb-lg-2">
+                                    <a class="text-primary" href="#!">Forgot password?</a>
+                                </p>
+
+                                <button class="btn btn-outline-dark btn-lg px-5 btn-custom" type="submit">Login</button>
+
+                                <div class="d-flex justify-content-center text-center mt-4 pt-1 social-icons">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter mx-4"></i></a>
+                                    <a href="#"><i class="fab fa-google"></i></a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="mb-0">
+                                    Don't have an account?
+                                    <a href="#!" class="text-primary fw-bold">Sign Up</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
