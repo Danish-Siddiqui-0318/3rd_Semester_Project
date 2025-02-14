@@ -136,8 +136,19 @@
 
                 <!-- Login and Signup Buttons -->
                 <div class="d-flex">
-                    <a asp-area="" asp-page="/frontend/Login" class="btn btn-outline-dark btn-custom me-2">Login</a>
-                    <a asp-area="" asp-page="/frontend/Signup" class="btn btn-dark btn-custom">Sign Up</a>
+                    @{
+                        string role = Context.Session.GetString("role");
+                        if(role=="admin" || role == "user")
+                        {
+                               <a class="btn btn-outline-dark btn-custom me-2" asp-area="" asp-page="/frontend/Logout">Log Out</a>
+                        }
+                        else
+                        {
+                            <a asp-area="" asp-page="/frontend/Login" class="btn btn-outline-dark btn-custom me-2">Login</a>
+                            <a asp-area="" asp-page="/frontend/Signup" class="btn btn-dark btn-custom">Sign Up</a> 
+                        }
+                    }
+                   
                 </div>
             </div>
         </div>
