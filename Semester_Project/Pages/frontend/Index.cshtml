@@ -103,26 +103,22 @@
                                             <ul id="navigation">
                                                 <li><a asp-area="" asp-page="/Index">Home</a></li>
                                                 <li><a asp-area="" asp-page="/frontend/about">About</a></li>
+                                                <li><a asp-area="" asp-page="">Admin</a></li>
                                                 <li>
                                                     <a href="#">Products <i class="ti-angle-down"></i></a>
                                                     <ul class="submenu">
-                                                        <li><a href="blog.html">Capsule/ Encapsulation</a></li>
-                                                        <li><a href="single-blog.html">Tablet</a></li>
+                                                        <li><a asp-area="" asp-page="/frontend/ProductCapsules">Capsules Encapsulation</a></li>
+                                                        <li><a asp-area="" asp-page="/frontend/ProductTablets">Tablet</a></li>
                                                         <li><a href="single-blog.html">Liquid Filling</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a asp-area="" asp-page="/frontend/contact">Contact</a></li>
                                                 <li><a asp-area="" asp-page="/frontend/quote">Quote us</a></li>
                                                 <li><a href="contact.html">Career</a></li>
-                                                <li><a href="contact.html">Admin</a></li>
                                             </ul>
                                         </nav>
                                     </div>
-                                    <div class="d-flex align-items-center">
-
-                                        <a class="btn btn-primary" style="color: #002278;background: #fff;" href="#">Login</a>
-                                        <a class=" btn btn-primary" style="color: #002278;background: #fff;" href="#test-form">Signup</a>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -134,6 +130,15 @@
             </div>
         </div>
     </header>
+    <div class="row" style="margin-top:65px;">
+        <div class="col-md-8"></div>
+        <div class="col-md-4">
+             <div class="d-flex align-items-center">
+            <a class="btn btn-primary" style="color: #002278;background: #fff;" href="#">Login</a>
+            <a class=" btn btn-primary" style="color: #002278;background: #fff;" href="#test-form">Signup</a>
+            </div> 
+        </div>
+    </div>
     <!-- header-end -->
     <!-- slider_area_start -->
     <div class="slider_area mt-5 d-flex align-items-center justify-content-center">

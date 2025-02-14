@@ -1,0 +1,161 @@
+﻿@page
+@model Semester_Project.Pages.frontend.ProductCapsulesModel
+@{
+}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Medi</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- CSS here -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/themify-icons.css">
+    <link rel="stylesheet" href="~/css/nice-select.css">
+    <link rel="stylesheet" href="~/css/flaticon.css">
+    <link rel="stylesheet" href="~/css/gijgo.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+    <link rel="stylesheet" href="~/css/slicknav.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+    <style>
+        .slider_area {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            margin-top: 1000px;
+                  }
+
+        .slider_bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .slider_text {
+            position: relative;
+            text-align: center;
+            color: #fff;
+            z-index: 2;
+        }
+
+            .slider_text h3 {
+                font-size: 3rem;
+                font-weight: bold;
+                color: aliceblue;
+            }
+
+        .boxed-btn5 {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+<!-- header-start -->
+<header>
+    <div class="header-area">
+        <div id="sticky-header" class="main-header-area">
+            <div class="container ">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 col-lg-3">
+                        <div class="logo-img">
+                            <a href="index.html">
+                                 <img src="/frontimg/logo.png" alt=""> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 ">
+                        <div class="menu_wrap d-none d-lg-block">
+                            <div class="menu_wrap_inner d-flex align-items-center justify-content-center">
+                                <div class="main-menu ">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a asp-area="" asp-page="/Index">Home</a></li>
+                                            <li><a asp-area="" asp-page="/frontend/about">About</a></li>
+                                            <li><a asp-area="" asp-page="">Admin</a></li>
+                                            <li>
+                                                <a href="#">Products <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a asp-area="" asp-page="/">Capsules Encapsulation</a></li>
+                                                        <li><a asp-area="" asp-page="/frontend/ProductCapsules">Tablet</a></li>
+                                                    <li><a href="single-blog.html">Liquid Filling</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a asp-area="" asp-page="/frontend/contact">Contact</a></li>
+                                            <li><a asp-area="" asp-page="/frontend/quote">Quote us</a></li>
+                                            <li><a href="contact.html">Career</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="row" style="margin-top:65px;">
+        <div class="col-md-8"></div>
+        <div class="col-md-4">
+             <div class="d-flex align-items-center">
+            <a class="btn btn-primary" style="color: #002278;background: #fff;" href="#">Login</a>
+            <a class=" btn btn-primary" style="color: #002278;background: #fff;" href="#test-form">Signup</a>
+            </div> 
+        </div>
+    </div>
+    <!-- header-end -->
+
+    <div class="row my-5 text-center fw-bold fs-4">
+       <div class="col-md-12">Buy Capsules Encapsulation Now</div>
+   </div>
+    <!-- Product Card Start-->
+
+   <div class="row">
+        @foreach (var item in Model.showCapsules)
+        {
+           <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="@item.image" class="card-img-top" alt="...">
+                <div class="card-body">
+                        <h5 class="card-title">@item.Product_Name</h5>
+                    <p class="card-text">Output: @item.Output</p>
+                        <a  href="/frontend/Capsules?id=@item.id">See Details</a>
+                </div>
+            </div>
+           </div>
+        }
+   </div>
+</body>

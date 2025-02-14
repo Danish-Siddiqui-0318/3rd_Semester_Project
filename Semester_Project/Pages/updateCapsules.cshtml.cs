@@ -36,7 +36,6 @@ namespace Semester_Project.Pages
                                 capsuleInfo.MachineDimension = reader.GetString(4);
                                 capsuleInfo.ShippingWeightKG = reader.GetDecimal(5).ToString();
                                 capsuleInfo.image = reader.GetString(6);
-
                             }
                         }
                     }
