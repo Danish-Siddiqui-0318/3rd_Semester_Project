@@ -19,7 +19,7 @@ namespace Semester_Project.Pages.frontend
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    string sql = "select * from Capsules where Id=@d";
+                    string sql = "select * from Capsules where Id=@id";
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
                         using (SqlDataReader reader = command.ExecuteReader())

@@ -1,0 +1,94 @@
+﻿@page
+@model Semester_Project.Pages.frontend.ProductLiquidModel
+@{
+    Layout = "_LayoutFront";
+}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Medi</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <style>
+
+        body {
+            background: linear-gradient(to right, #C9D6FF, #E2E2E2);
+            height: 100vh;
+        }
+        .slider_area {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            margin-top: 1000px;
+                  }
+
+        .slider_bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .slider_text {
+            position: relative;
+            text-align: center;
+            color: #fff;
+            z-index: 2;
+        }
+
+            .slider_text h3 {
+                font-size: 3rem;
+                font-weight: bold;
+                color: aliceblue;
+            }
+
+        .boxed-btn5 {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div class="row my-5 text-center fw-bold fs-4">
+        <div class="col-md-12">Buy Liquid Fillings Now</div>
+    </div>
+    <!-- Product Card Start-->
+
+    <div class="row">
+        @foreach (var item in Model.listliquid)
+        {
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="@item.image" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.ModelName</h5>
+                        <p class="card-text">Output: @item.FillingRangeML</p>
+                        <a href="/frontend/Capsules?id=@item.id">See Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</body>

@@ -1,0 +1,34 @@
+﻿@page
+@using System.Data.SqlClient;
+@model Semester_Project.Pages.frontend.CareerModel
+@{
+    Layout = "_LayoutFront";
+}
+@{
+    var role = HttpContext.Session.GetString("role");
+    var name = HttpContext.Session.GetString("name");
+    var id = HttpContext.Session.GetInt32("id");
+    
+
+    if(role=="admin" || role == "user")
+    {
+        <h1>@name</h1>
+        <h1>@id</h1>
+        foreach(var item in Model.showPortfolio)
+        {
+            if (item.description == "")
+            {
+                <h2>No Description </h2>
+            }
+            else
+            {
+                <h2>@item.description</h2>
+            }
+        }
+    }
+    else
+    {
+        <h1>You Are Not Login .<br /> Login To See your Portfolio</h1>
+    }
+}
+
