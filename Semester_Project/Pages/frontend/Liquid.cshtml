@@ -1,5 +1,5 @@
 ﻿@page
-@model Semester_Project.Pages.frontend.CapsulesModel
+@model Semester_Project.Pages.frontend.LiquidModel
 @{
     Layout = "_LayoutFront";
 }
@@ -60,22 +60,22 @@
     </div>
 
     <div class="container">
-        @if (Model.showCapsule.Any())
+        @if (Model.listliquid.Any())
         {
-            @foreach (var item in Model.showCapsule)
+            @foreach (var item in Model.listliquid)
             {
                 <div class="container col-xxl-8 px-4 py-5">
                     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                         <div class="col-10 col-sm-8 col-lg-6">
-                            <img src="@item.Image" class="d-block mx-lg-auto img-fluid rounded" alt="@item.Product" width="700" height="500" loading="lazy">
+                            <img src="@item.Image" class="d-block mx-lg-auto img-fluid rounded" alt="@item.ModelName" width="700" height="500" loading="lazy">
                         </div>
                         <div class="col-lg-6">
-                            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">@item.Product</h1>
+                            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">@item.ModelName</h1>
                             <p class="lead">
-                                <strong>Output:</strong> @item.output <br>
-                                <strong>Capsule Size:</strong> @item.capsuleSizeMM mm <br>
-                                <strong>Machine Dimension:</strong> @item.machineDimension <br>
-                                <strong>Shipping Weight:</strong> @item.shippingWeightKG kg
+                                <strong>AirPressure:</strong> @item.AirPressure <br>
+                                <strong>AirVolume :</strong> @item.AirVolume mm <br>
+                                <strong>FillingRangeML :</strong> @item.FillingRangeML <br>
+                                <strong>FillingSpeed :</strong> @item.FillingSpeed
                             </p>
                             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Buy Now</button>

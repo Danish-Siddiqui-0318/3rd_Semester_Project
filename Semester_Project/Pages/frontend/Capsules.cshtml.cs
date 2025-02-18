@@ -1,8 +1,70 @@
+//using Microsoft.AspNetCore.Mvc;
+//using Microsoft.AspNetCore.Mvc.RazorPages;
+//using System.Data.SqlClient;
+
+
+
+//namespace Semester_Project.Pages.frontend
+//{
+//    public class CapsulesModel : PageModel
+//    {
+//        public List<CapsuleInfo> showCapsule = new List<CapsuleInfo>();
+
+//        public void OnGet()
+//        {
+//            try
+//            {
+//                String id = Request.Query["id"];
+//                String connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+//                using (SqlConnection connection = new SqlConnection(connectionString))
+//                {
+//                    connection.Open();
+//                    string sql = "select * from Capsules where Id=@id";
+//                    using (SqlCommand command = new SqlCommand(sql, connection))
+//                    {
+//                        using (SqlDataReader reader = command.ExecuteReader())
+//                        {
+//                            while (reader.Read())
+//                            {
+//                                CapsuleInfo capsuleInfo = new CapsuleInfo();
+//                                capsuleInfo.Id = "" + reader.GetInt32(0);
+//                                capsuleInfo.Product = reader.GetString(1);
+//                                capsuleInfo.output = reader.GetString(2);
+//                                capsuleInfo.capsuleSizeMM = reader.GetDecimal(3).ToString();
+//                                capsuleInfo.machineDimension = reader.GetString(4);
+//                                capsuleInfo.shippingWeightKG = reader.GetDecimal(5).ToString();
+//                                capsuleInfo.Image = reader.GetString(6);
+//                                showCapsule.Add(capsuleInfo);
+//                            }
+//                        }
+//                    }
+//                }
+//            }
+//            catch (Exception ex)
+//            {
+//                Console.WriteLine("Exception : " + ex.ToString());
+//            }
+//        }
+//    }
+//    public class CapsuleInfo
+//    {
+//        public String Id;
+//        public String Product;
+//        public String output;
+//        public String capsuleSizeMM;
+//        public String machineDimension;
+//        public String shippingWeightKG;
+//        public String Image;
+//    }
+//}
+
+
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System;
+using System.Collections.Generic;
 using System.Data.SqlClient;
-
-
 
 namespace Semester_Project.Pages.frontend
 {
@@ -14,46 +76,66 @@ namespace Semester_Project.Pages.frontend
         {
             try
             {
-                String id = Request.Query["id"];
-                String connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                // Get the 'id' from the query parameters
+                string id = Request.Query["id"];
+                Console.WriteLine("Received ID: " + id); // Debugging
+
+                if (string.IsNullOrEmpty(id))
+                {
+                    Console.WriteLine("Error: ID is null or empty.");
+                    return;
+                }
+
+                // Database connection string
+                string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    string sql = "select * from Capsules where Id=@id";
+                    string sql = "SELECT * FROM Capsules WHERE Id=@id";
+
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
+                        command.Parameters.AddWithValue("@id", id); // Parameterized Query for security
+
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
                             while (reader.Read())
                             {
-                                CapsuleInfo capsuleInfo = new CapsuleInfo();
-                                capsuleInfo.Id = "" + reader.GetInt32(0);
-                                capsuleInfo.Product = reader.GetString(1);
-                                capsuleInfo.output = reader.GetString(2);
-                                capsuleInfo.capsuleSizeMM = reader.GetDecimal(3).ToString();
-                                capsuleInfo.machineDimension = reader.GetString(4);
-                                capsuleInfo.shippingWeightKG = reader.GetDecimal(5).ToString();
-                                capsuleInfo.Image = reader.GetString(6);
+                                CapsuleInfo capsuleInfo = new CapsuleInfo
+                                {
+                                    Id = reader.GetInt32(0).ToString(),
+                                    Product = reader.GetString(1),
+                                    output = reader.GetString(2),
+                                    capsuleSizeMM = reader.GetDecimal(3).ToString(),
+                                    machineDimension = reader.GetString(4),
+                                    shippingWeightKG = reader.GetDecimal(5).ToString(),
+                                    Image = reader.GetString(6)
+                                };
+
                                 showCapsule.Add(capsuleInfo);
                             }
                         }
                     }
                 }
+
+                Console.WriteLine("Capsules Found: " + showCapsule.Count);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Exception : " + ex.ToString());
+                Console.WriteLine("Exception: " + ex.ToString());
             }
         }
     }
+
     public class CapsuleInfo
     {
-        public String Id;
-        public String Product;
-        public String output;
-        public String capsuleSizeMM;
-        public String machineDimension;
-        public String shippingWeightKG;
-        public String Image;
+        public string Id { get; set; }
+        public string Product { get; set; }
+        public string output { get; set; }
+        public string capsuleSizeMM { get; set; }
+        public string machineDimension { get; set; }
+        public string shippingWeightKG { get; set; }
+        public string Image { get; set; }
     }
 }

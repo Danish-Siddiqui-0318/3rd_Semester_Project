@@ -8,27 +8,40 @@
     var role = HttpContext.Session.GetString("role");
     var name = HttpContext.Session.GetString("name");
     var id = HttpContext.Session.GetInt32("id");
-    
+}
 
-    if(role=="admin" || role == "user")
+@if (role == "admin" || role == "user")
+{
+    if (Model.showPortfolio.Count > 0)
     {
-        <h1>@name</h1>
-        <h1>@id</h1>
-        foreach(var item in Model.showPortfolio)
+        @foreach (var item in Model.showPortfolio)
         {
-            if (item.description == "")
+            if (string.IsNullOrEmpty(item.description))
             {
-                <h2>No Description </h2>
+                <h2>No Description</h2>
             }
             else
             {
                 <h2>@item.description</h2>
+                <button>
+                    <a href="UpdatePortfolio">
+                        Update Portfolio
+                    </a>
+                </button>
             }
         }
     }
     else
     {
-        <h1>You Are Not Login .<br /> Login To See your Portfolio</h1>
+        <h2>No portfolio found.</h2>
+         <button>
+        <a href="AddPortfolio" >
+                Add Portfolio
+        </a>
+        </button> 
     }
 }
-
+else
+{
+    <h1>You Are Not Logged In.<br /> Login To See Your Portfolio</h1>
+}

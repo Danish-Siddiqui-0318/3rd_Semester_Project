@@ -13,37 +13,54 @@ namespace Semester_Project.Pages.frontend
             try
             {
                 var id = HttpContext.Session.GetInt32("id");
+                Console.WriteLine("Session ID: " + id);
+
+                if (id == null)
+                {
+                    Console.WriteLine("User ID is null. Ensure the session is correctly set.");
+                    return;
+                }
+
                 String connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    string sql = "select * from user_portfolio where user_id=@id";
+                    string sql = "SELECT * FROM user_portfolio WHERE user_id = @id";
+
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
+                        command.Parameters.AddWithValue("@id", id); // Correct parameter binding
+
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
                             while (reader.Read())
                             {
-                                PortfolioInfo portfolioInfo = new PortfolioInfo();
-                                portfolioInfo.id = "" + reader.GetInt32(0);
-                                portfolioInfo.description = reader.GetString(1);
-                                portfolioInfo.user_id = ""+reader.GetInt32(2);
+                                PortfolioInfo portfolioInfo = new PortfolioInfo
+                                {
+                                    id = reader.GetInt32(0).ToString(),
+                                    description = reader.GetString(1),
+                                    user_id = reader.GetInt32(2).ToString()
+                                };
                                 showPortfolio.Add(portfolioInfo);
                             }
                         }
                     }
                 }
+                Console.WriteLine("Records fetched: " + showPortfolio.Count);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Exception : " + ex.ToString());
+                Console.WriteLine("Exception: " + ex.Message);
+                Console.WriteLine("Stack Trace: " + ex.StackTrace);
             }
         }
     }
+
     public class PortfolioInfo
     {
-        public String id;
-        public String description;
-        public String user_id;
+        public string id { get; set; }
+        public string description { get; set; }
+        public string user_id { get; set; }
     }
 }

@@ -66,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZnJvbnRlbmRcYWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Aptech/Semester 3/Semester_Project/3rd_Semester_Project/Semester_Project/Pages/frontend/AddPortfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZnJvbnRlbmRcQWRkUG9ydGZvbGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Aptech/Semester 3/Semester_Project/3rd_Semester_Project/Semester_Project/Pages/frontend/Capsules.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZnJvbnRlbmRcQ2Fwc3VsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -80,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/Aptech/Semester 3/Semester_Project/3rd_Semester_Project/Semester_Project/Pages/frontend/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZnJvbnRlbmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Aptech/Semester 3/Semester_Project/3rd_Semester_Project/Semester_Project/Pages/frontend/Liquid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZnJvbnRlbmRcTGlxdWlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Aptech/Semester 3/Semester_Project/3rd_Semester_Project/Semester_Project/Pages/frontend/Login.cshtml]
@@ -112,6 +120,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/Aptech/Semester 3/Semester_Project/3rd_Semester_Project/Semester_Project/Pages/frontend/Tablets.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZnJvbnRlbmRcVGFibGV0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Aptech/Semester 3/Semester_Project/3rd_Semester_Project/Semester_Project/Pages/frontend/UpdatePortfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZnJvbnRlbmRcVXBkYXRlUG9ydGZvbGlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Aptech/Semester 3/Semester_Project/3rd_Semester_Project/Semester_Project/Pages/Index.cshtml]
