@@ -21,7 +21,7 @@ namespace Semester_Project.Pages.frontend
                     return;
                 }
 
-                String connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                String connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {

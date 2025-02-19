@@ -4,21 +4,47 @@
     Layout = "_LayoutFront";
 }
 
-<h2>Update Portfolio</h2>
+<style>
+    body {
+        background: linear-gradient(to right, #C9D6FF, #E2E2E2);
+    }
 
-@if (!string.IsNullOrEmpty(Model.Message))
-{
-    <p style="color: red;">@Model.Message</p>
-}
+    .btn-custom {
+        border-radius: 25px;
+        transition: all 0.3s ease-in-out;
+    }
 
-<form method="post">
-    <input type="hidden" asp-for="PortfolioId" />
+    .form-container {
+        max-width: 600px;
+        margin: 50px auto;
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 150px;
+    }
+</style>
 
-    <label for="description">Portfolio Description:</label>
-    <textarea id="description" name="Description" rows="4" cols="50">@Model.Description</textarea>
-    <br />
-    <button type="submit">Update Portfolio</button>
-</form>
+<div class="container ">
+    <div class="form-container">
+        <h2 class="text-center mb-4">Update Portfolio</h2>
 
-<br />
-<a href="/frontend/Career">Back to Portfolio</a>
+        @if (!string.IsNullOrEmpty(Model.Message))
+        {
+            <div class="alert alert-danger">@Model.Message</div>
+        }
+
+        <form method="post">
+            <div class="mb-3">
+                <input type="hidden" id="PortfolioId" />
+                <label for="description" class="form-label">Portfolio Description:</label>
+                <textarea id="description" name="Description" class="form-control" rows="4">@Model.Description</textarea>
+            </div>
+            <div class="">
+                <button type="submit" class="btn btn-dark  btn-custom ">Update Portfolio</button>
+                <a href="/frontend/Career" class="btn btn-outline-dark btn-custom">Back to Portfolio</a>
+
+            </div>
+        </form>
+        </div>
+        </div>

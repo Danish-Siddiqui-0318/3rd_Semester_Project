@@ -1,4 +1,72 @@
-﻿@page
+﻿ @page
+@using System.Data.SqlClient;
+@model Semester_Project.Pages.frontend.CareerModel
+@{
+    Layout = "_LayoutFront";
+}
+@{
+    var role = HttpContext.Session.GetString("role");
+    var name = HttpContext.Session.GetString("name");
+    var id = HttpContext.Session.GetInt32("id");
+}
+<style>
+    body {
+        background: linear-gradient(to right, #C9D6FF, #E2E2E2);
+        min-height: 100vh;
+    }
+
+    .btn-custom {
+        border-radius: 25px;
+        transition: all 0.3s ease-in-out;
+    }
+</style>
+
+<div class="container d-flex flex-column min-vh-100">
+    <div class="flex-grow-1 mt-5 ">
+        @if (role == "admin" || role == "user")
+        {
+            <div class="row justify-content-center">
+                @if (Model.showPortfolio.Count > 0)
+                {
+                    @foreach (var item in Model.showPortfolio)
+                    {
+                        <div class="col-md-8 mb-3">
+                            <div class="card shadow-sm p-3">
+                                @if (string.IsNullOrEmpty(item.description))
+                                {
+                                    <h5 class="text-muted">No Description</h5>
+                                }
+                                else
+                                {
+                                    <h5>@item.description</h5>
+                                }
+                                <a href="UpdatePortfolio" class="btn btn-dark w-100  btn-custom mt-2">Update Portfolio</a>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="col-md-6 text-center">
+                        <h2>No portfolio found.</h2>
+                        <a asp-page="AddPortfolio" class="btn btn-dark mt-3 btn-custom">Add Portfolio</a>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="text-center mt-5">
+                <h1>You Are Not Logged In.<br />Login To See Your Portfolio</h1>
+            </div>
+        }
+    </div>
+</div>
+ 
+
+
+
+@*  @page
 @using System.Data.SqlClient;
 @model Semester_Project.Pages.frontend.CareerModel
 @{
@@ -24,7 +92,7 @@
             {
                 <h2>@item.description</h2>
                 <button>
-                    <a href="UpdatePortfolio">
+                    <a asp-page="UpdatePortfolio">
                         Update Portfolio
                     </a>
                 </button>
@@ -34,14 +102,14 @@
     else
     {
         <h2>No portfolio found.</h2>
-         <button>
-        <a href="AddPortfolio" >
+        <button>
+            <a href="AddPortfolio">
                 Add Portfolio
-        </a>
-        </button> 
+            </a>
+        </button>
     }
 }
 else
 {
     <h1>You Are Not Logged In.<br /> Login To See Your Portfolio</h1>
-}
+} *@

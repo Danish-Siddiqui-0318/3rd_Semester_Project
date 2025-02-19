@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 
 namespace Semester_Project.Pages.frontend
 {
+    
     public class UpdatePortfolioModel : PageModel
     {
         [BindProperty]
@@ -26,7 +27,7 @@ namespace Semester_Project.Pages.frontend
                     return;
                 }
 
-                string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
@@ -71,7 +72,7 @@ namespace Semester_Project.Pages.frontend
                     return Page();
                 }
 
-                string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
