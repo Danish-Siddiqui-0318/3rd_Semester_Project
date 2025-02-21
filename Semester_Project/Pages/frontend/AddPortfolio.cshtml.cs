@@ -57,7 +57,9 @@ namespace Semester_Project.Pages.frontend
                 Message = "Error: " + ex.Message;
             }
 
+            Response.Redirect("/frontend/Career");
             return Page();
+
         }
     }
 }

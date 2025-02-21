@@ -39,80 +39,33 @@
                                 else
                                 {
                                     <h5>@item.description</h5>
+                                <a href="deletePortfolio?id=@item.user_id" class="btn btn-dark w-100 btn-custom mt-2">Delete Portfolio</a>
                                 }
-                                <a asp-page="/frontend/deletePortfolio" class="btn btn-dark w-100 btn-custom mt-2">Delete Portfolio</a>
                             </div>
                         </div>
                     }
                 }
                 else
                 {
-                    <div class="d-flex justify-content-center align-items-center min-vh-100">
-                        <div class="card shadow-lg p-5 text-center bg-light">
-                            <h1 class="text-danger fw-bold">You Are Not Logged In</h1>
-                            <p class="text-muted fs-5">Login to see your portfolio.</p>
-                            <a asp-page="/Login" class="btn btn-dark btn-custom mt-3 px-4">Login Now</a>
-                        </div>
-                    </div>
+                    <h1>No portfolio found.</h1>
+                        <a href="AddPortfolio">
+                    <button>
+                            Add Portfolio
+                    </button>
+                        </a>
                 }
             </div>
         }
         else
         {
-            <div class="text-center mt-5">
-                <h1>You Are Not Logged In.<br />Login To See Your Portfolio</h1>
+            <div class="d-flex justify-content-center align-items-center min-vh-100">
+                <div class="card shadow-lg p-5 text-center bg-light">
+                    <h1 class="text-danger fw-bold">You Are Not Logged In</h1>
+                    <p class="text-muted fs-5">Login to see your portfolio.</p>
+                    <a asp-page="frontend/Login" class="btn btn-dark btn-custom mt-3 px-4">Login Now</a>
+                </div>
             </div>
         }
     </div>
 </div>
  
-
-
-
-@*  @page
-@using System.Data.SqlClient;
-@model Semester_Project.Pages.frontend.CareerModel
-@{
-    Layout = "_LayoutFront";
-}
-@{
-    var role = HttpContext.Session.GetString("role");
-    var name = HttpContext.Session.GetString("name");
-    var id = HttpContext.Session.GetInt32("id");
-}
-
-@if (role == "admin" || role == "user")
-{
-    if (Model.showPortfolio.Count > 0)
-    {
-        @foreach (var item in Model.showPortfolio)
-        {
-            if (string.IsNullOrEmpty(item.description))
-            {
-                <h2>No Description</h2>
-            }
-            else
-            {
-                <h2>@item.description</h2>
-                <button>
-                    <a asp-page="UpdatePortfolio">
-                        Update Portfolio
-                    </a>
-                </button>
-            }
-        }
-    }
-    else
-    {
-        <h2>No portfolio found.</h2>
-        <button>
-            <a href="AddPortfolio">
-                Add Portfolio
-            </a>
-        </button>
-    }
-}
-else
-{
-    <h1>You Are Not Logged In.<br /> Login To See Your Portfolio</h1>
-} *@
