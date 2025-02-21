@@ -8,7 +8,7 @@
         using (SqlConnection connection = new SqlConnection(connectionString))
         {
             connection.Open();
-            String sql = "delete from user_portfolio where user_id=@id";
+            String sql = "delete from user_portfolio where id=@id";
             using (SqlCommand command = new SqlCommand(sql, connection))
             {
                 command.Parameters.AddWithValue("@id", id);
@@ -20,6 +20,5 @@
     {
         Console.WriteLine("Exception: " + ex.ToString());
     }
-    Response.Redirect("/frontend/Career");
+    Response.Redirect("/Portfolio");
 }
-
