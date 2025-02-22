@@ -27,7 +27,7 @@ namespace Semester_Project.Pages
                 return;
             }
 
-            string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+            string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
             using (SqlConnection connection = new SqlConnection(connectionString)) {
                 connection.Open();
                 string query = "Select id,name,password,role FROM Users Where email=@email";

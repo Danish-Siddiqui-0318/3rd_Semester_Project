@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ASP.Net\\3rd_Semester_Project\\",
+  "WorkspaceRootPath": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\frontend\\tablets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\frontend\\tablets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\frontend\\liquid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\frontend\\liquid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\frontend\\capsules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\frontend\\capsules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|e:\\aptech\\semester 3\\semester_project\\3rd_semester_project\\semester_project\\pages\\updatecapsules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\updatecapsules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Capsules.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\Capsules.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\frontend\\Capsules.cshtml",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\Capsules.cshtml",
-              "RelativeToolTip": "Semester_Project\\Pages\\frontend\\Capsules.cshtml",
-              "ViewState": "AgIAACcAAADAwMzMzIwjwDoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T14:14:19.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Tablets.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\Tablets.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\frontend\\Tablets.cshtml",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\Tablets.cshtml",
-              "RelativeToolTip": "Semester_Project\\Pages\\frontend\\Tablets.cshtml",
-              "ViewState": "AgIAAEcAAAAAMDMzM3MvwFUAAABcAAAAAAAAAA==",
+              "Title": "updateCapsules.cshtml",
+              "DocumentMoniker": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\updateCapsules.cshtml",
+              "RelativeDocumentMoniker": "Semester_Project\\Pages\\updateCapsules.cshtml",
+              "ToolTip": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\updateCapsules.cshtml",
+              "RelativeToolTip": "Semester_Project\\Pages\\updateCapsules.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T14:13:26.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Liquid.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\Liquid.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\frontend\\Liquid.cshtml",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\Liquid.cshtml",
-              "RelativeToolTip": "Semester_Project\\Pages\\frontend\\Liquid.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAACWvVQAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T14:03:09.216Z",
+              "WhenOpened": "2025-02-22T21:47:50.498Z",
               "EditorCaption": ""
             }
           ]

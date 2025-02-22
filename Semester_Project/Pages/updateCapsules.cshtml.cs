@@ -17,7 +17,7 @@ namespace Semester_Project.Pages
             String id = Request.Query["id"];
             try
             {
-                String connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                String connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
@@ -97,7 +97,7 @@ namespace Semester_Project.Pages
                 {
                     ImageURL.CopyTo(stream);
                 }
-                string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();

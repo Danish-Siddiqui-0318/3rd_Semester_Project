@@ -1,62 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ASP.Net\\3rd_Semester_Project\\",
+  "WorkspaceRootPath": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\updateusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\updateusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\portfolio.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\portfolio.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\deleteusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\deleteusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\deletetablets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\deletetablets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\deleteportfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\deleteportfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\deleteliquid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\deleteliquid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\deletecapsules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\deletecapsules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\frontend\\tablets.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\frontend\\tablets.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\frontend\\producttablets.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\frontend\\producttablets.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\frontend\\productliquid.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\frontend\\productliquid.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\frontend\\productcapsules.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\frontend\\productcapsules.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\frontend\\liquid.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\frontend\\liquid.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\frontend\\deleteportfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\frontend\\deleteportfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|d:\\asp.net\\3rd_semester_project\\semester_project\\pages\\frontend\\capsules.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\frontend\\capsules.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|e:\\aptech\\semester 3\\semester_project\\3rd_semester_project\\semester_project\\pages\\updatecapsules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68A7B6B0-44ED-4ABA-B6C0-F7241308D08A}|Semester_Project\\Semester_Project.csproj|solutionrelative:semester_project\\pages\\updatecapsules.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,183 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "updateUsers.cshtml.cs",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\updateUsers.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\updateUsers.cshtml.cs",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\updateUsers.cshtml.cs*",
-              "RelativeToolTip": "Semester_Project\\Pages\\updateUsers.cshtml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:32:27.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Portfolio.cshtml.cs",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\Portfolio.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\Portfolio.cshtml.cs",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\Portfolio.cshtml.cs*",
-              "RelativeToolTip": "Semester_Project\\Pages\\Portfolio.cshtml.cs*",
-              "ViewState": "AgIAAAcAAACgmJmZmZklwBUAAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:31:28.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "deleteUsers.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\deleteUsers.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\deleteUsers.cshtml",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\deleteUsers.cshtml*",
-              "RelativeToolTip": "Semester_Project\\Pages\\deleteUsers.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB0AAAAAAAAAA==",
+              "Title": "updateCapsules.cshtml",
+              "DocumentMoniker": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\updateCapsules.cshtml",
+              "RelativeDocumentMoniker": "Semester_Project\\Pages\\updateCapsules.cshtml",
+              "ToolTip": "E:\\Aptech\\Semester 3\\Semester_Project\\3rd_Semester_Project\\Semester_Project\\Pages\\updateCapsules.cshtml",
+              "RelativeToolTip": "Semester_Project\\Pages\\updateCapsules.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAACSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T13:30:47.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "deleteTablets.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\deleteTablets.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\deleteTablets.cshtml",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\deleteTablets.cshtml*",
-              "RelativeToolTip": "Semester_Project\\Pages\\deleteTablets.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T13:30:28.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "deletePortfolio.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\deletePortfolio.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\deletePortfolio.cshtml",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\deletePortfolio.cshtml*",
-              "RelativeToolTip": "Semester_Project\\Pages\\deletePortfolio.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T13:30:15.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "deleteLiquid.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\deleteLiquid.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\deleteLiquid.cshtml",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\deleteLiquid.cshtml*",
-              "RelativeToolTip": "Semester_Project\\Pages\\deleteLiquid.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T13:29:58.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "deleteCapsules.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\deleteCapsules.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\deleteCapsules.cshtml",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\deleteCapsules.cshtml*",
-              "RelativeToolTip": "Semester_Project\\Pages\\deleteCapsules.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T13:29:37.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Tablets.cshtml.cs",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\Tablets.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\frontend\\Tablets.cshtml.cs",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\Tablets.cshtml.cs*",
-              "RelativeToolTip": "Semester_Project\\Pages\\frontend\\Tablets.cshtml.cs*",
-              "ViewState": "AgIAAEAAAAAAZGZmZuYawEkAAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:28:18.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductTablets.cshtml.cs",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\ProductTablets.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\frontend\\ProductTablets.cshtml.cs",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\ProductTablets.cshtml.cs*",
-              "RelativeToolTip": "Semester_Project\\Pages\\frontend\\ProductTablets.cshtml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:27:49.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductLiquid.cshtml.cs",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\ProductLiquid.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\frontend\\ProductLiquid.cshtml.cs",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\ProductLiquid.cshtml.cs*",
-              "RelativeToolTip": "Semester_Project\\Pages\\frontend\\ProductLiquid.cshtml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:27:21.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductCapsules.cshtml.cs",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\ProductCapsules.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\frontend\\ProductCapsules.cshtml.cs",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\ProductCapsules.cshtml.cs*",
-              "RelativeToolTip": "Semester_Project\\Pages\\frontend\\ProductCapsules.cshtml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:27:03.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Liquid.cshtml.cs",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\Liquid.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\frontend\\Liquid.cshtml.cs",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\Liquid.cshtml.cs*",
-              "RelativeToolTip": "Semester_Project\\Pages\\frontend\\Liquid.cshtml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAB4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:25:41.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "deletePortfolio.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\deletePortfolio.cshtml",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\frontend\\deletePortfolio.cshtml",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\deletePortfolio.cshtml*",
-              "RelativeToolTip": "Semester_Project\\Pages\\frontend\\deletePortfolio.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T13:25:13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Capsules.cshtml.cs",
-              "DocumentMoniker": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\Capsules.cshtml.cs",
-              "RelativeDocumentMoniker": "Semester_Project\\Pages\\frontend\\Capsules.cshtml.cs",
-              "ToolTip": "D:\\ASP.Net\\3rd_Semester_Project\\Semester_Project\\Pages\\frontend\\Capsules.cshtml.cs*",
-              "RelativeToolTip": "Semester_Project\\Pages\\frontend\\Capsules.cshtml.cs*",
-              "ViewState": "AgIAAEoAAACAlZmZmdk1wFkAAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:23:54.74Z",
+              "WhenOpened": "2025-02-22T21:47:50.498Z",
               "EditorCaption": ""
             }
           ]
