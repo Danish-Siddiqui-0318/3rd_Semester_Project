@@ -19,7 +19,7 @@ namespace Semester_Project.Pages.frontend
                 return;
             }
 
-            string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+            string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
 
             try
             {

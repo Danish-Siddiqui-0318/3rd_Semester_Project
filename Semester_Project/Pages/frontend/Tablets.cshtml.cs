@@ -71,7 +71,7 @@ namespace Semester_Project.Pages.frontend
                     return; // Stop execution if id is missing
                 }
 
-                string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {

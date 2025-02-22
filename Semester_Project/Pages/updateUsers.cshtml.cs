@@ -14,7 +14,7 @@ namespace Semester_Project.Pages
         {
             String id=Request.Query["id"];
             try {
-                string connectionString = "Data Source=DESKTOP-JCUJJ3K;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString)) { 
                     connection.Open();
                     String sql = "select * from Users where id=@id";

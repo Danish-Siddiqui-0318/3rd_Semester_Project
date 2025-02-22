@@ -5,6 +5,8 @@ using System.IO;
 using Microsoft.AspNetCore.Http;
 using System;
 using static System.Formats.Asn1.AsnWriter;
+using static System.Net.WebRequestMethods;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Semester_Project.Pages
 {
@@ -69,7 +71,7 @@ namespace Semester_Project.Pages
                 }
 
                 // Save product info to the database
-                string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
