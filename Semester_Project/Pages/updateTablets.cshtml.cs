@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;
 
@@ -15,7 +15,7 @@ namespace Semester_Project.Pages
             String id = Request.Query["id"];
             try
             {
-                String connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                String connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
@@ -52,94 +52,65 @@ namespace Semester_Project.Pages
         }
 
         public IActionResult OnPost(
-            string id, string ModelNumber, string Dies, decimal MaxPressure, decimal MaxDiameterMM,
-            decimal MaxDepthFillMM, string ProductionCapacity, string MachineSize,
-            decimal NetWeightKG, IFormFile ImageURL)
+     string id, string ModelNumber, string Dies, decimal MaxPressure, decimal MaxDiameterMM,
+     decimal MaxDepthFillMM, string ProductionCapacity, string MachineSize,
+     decimal NetWeightKG, IFormFile? ImageURL) // ImageURL is nullable
         {
-            // Validate required fields
-            if (string.IsNullOrEmpty(ModelNumber))
+            if (string.IsNullOrEmpty(ModelNumber) || string.IsNullOrEmpty(Dies) || MaxPressure <= 0 ||
+                MaxDiameterMM <= 0 || MaxDepthFillMM <= 0 || string.IsNullOrEmpty(ProductionCapacity) ||
+                string.IsNullOrEmpty(MachineSize) || NetWeightKG <= 0)
             {
-                errorMessage = "Model Number is required.";
+                errorMessage = "All required fields must be filled correctly.";
                 return Page();
             }
 
-            if (string.IsNullOrEmpty(Dies))
-            {
-                errorMessage = "Dies is required.";
-                return Page();
-            }
-
-            if (MaxPressure <= 0)
-            {
-                errorMessage = "Max Pressure must be greater than 0.";
-                return Page();
-            }
-
-            if (MaxDiameterMM <= 0)
-            {
-                errorMessage = "Max Diameter (MM) must be greater than 0.";
-                return Page();
-            }
-
-            if (MaxDepthFillMM <= 0)
-            {
-                errorMessage = "Max Depth Fill (MM) must be greater than 0.";
-                return Page();
-            }
-
-            if (string.IsNullOrEmpty(ProductionCapacity))
-            {
-                errorMessage = "Production Capacity is required.";
-                return Page();
-            }
-
-            if (string.IsNullOrEmpty(MachineSize))
-            {
-                errorMessage = "Machine Size is required.";
-                return Page();
-            }
-
-            if (NetWeightKG <= 0)
-            {
-                errorMessage = "Net Weight (KG) must be greater than 0.";
-                return Page();
-            }
-
-            if (ImageURL == null || ImageURL.Length == 0)
-            {
-                errorMessage = "Product image is required.";
-                return Page();
-            }
-
-
-            // Generate unique file name for the uploaded image
-            string fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageURL.FileName);
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
+            string imageUrl = ""; // Store the image URL (old or new)
 
             try
             {
-                // Save image to wwwroot/images
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    ImageURL.CopyTo(stream);
-                }
-
-                // Database connection
-                string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
+
+                    // 1️⃣ Retrieve the existing image URL if no new image is uploaded
+                    if (ImageURL == null || ImageURL.Length == 0)
+                    {
+                        string selectQuery = "SELECT ImageURL FROM Tablets WHERE ID = @id";
+                        using (SqlCommand selectCmd = new SqlCommand(selectQuery, connection))
+                        {
+                            selectCmd.Parameters.AddWithValue("@id", id);
+                            var result = selectCmd.ExecuteScalar();
+                            imageUrl = result != null ? result.ToString() : ""; // Keep existing image URL
+                        }
+                    }
+                    else
+                    {
+                        // 2️⃣ Save new image to the wwwroot/images folder
+                        string fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageURL.FileName);
+                        string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
+
+                        using (var stream = new FileStream(filePath, FileMode.Create))
+                        {
+                            ImageURL.CopyTo(stream);
+                        }
+
+                        imageUrl = "/images/" + fileName; // Update with new image URL
+                    }
+
+                    // 3️⃣ Update the database record
                     string query = "UPDATE Tablets SET " +
-               "ModelNumber = @ModelNumber, " +
-               "Dies = @Dies, " +
-               "MaxPressure = @MaxPressure, " +
-               "MaxDiameterMM = @MaxDiameterMM, " +
-               "MaxDepthFillMM = @MaxDepthFillMM, " +
-               "ProductionCapacity = @ProductionCapacity, " +
-               "MachineSize = @MachineSize, " +
-               "NetWeightKG = @NetWeightKG, " +
-               "ImageURL = @ImageURL " +
-               "WHERE ID = @id";
+                       "ModelNumber = @ModelNumber, " +
+                       "Dies = @Dies, " +
+                       "MaxPressure = @MaxPressure, " +
+                       "MaxDiameterMM = @MaxDiameterMM, " +
+                       "MaxDepthFillMM = @MaxDepthFillMM, " +
+                       "ProductionCapacity = @ProductionCapacity, " +
+                       "MachineSize = @MachineSize, " +
+                       "NetWeightKG = @NetWeightKG, " +
+                       "ImageURL = @ImageURL " + // Keeps old image if new one isn't uploaded
+                       "WHERE ID = @id";
+
                     using (SqlCommand cmd = new SqlCommand(query, connection))
                     {
                         cmd.Parameters.AddWithValue("@id", id);
@@ -151,13 +122,13 @@ namespace Semester_Project.Pages
                         cmd.Parameters.AddWithValue("@ProductionCapacity", ProductionCapacity);
                         cmd.Parameters.AddWithValue("@MachineSize", MachineSize);
                         cmd.Parameters.AddWithValue("@NetWeightKG", NetWeightKG);
-                        cmd.Parameters.AddWithValue("@ImageURL", "/images/" + fileName); // Save relative image path
+                        cmd.Parameters.AddWithValue("@ImageURL", imageUrl); // This keeps the previous image if no new one is uploaded
 
                         cmd.ExecuteNonQuery();
                     }
                 }
 
-                successMessage = "Tablet added successfully!";
+                successMessage = "Tablet updated successfully!";
                 return RedirectToPage("/Tablets");
             }
             catch (Exception ex)
@@ -166,5 +137,6 @@ namespace Semester_Project.Pages
                 return Page();
             }
         }
+
     }
 }

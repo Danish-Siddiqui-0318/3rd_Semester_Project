@@ -11,6 +11,13 @@ wwwroot\frontimg\favicon.ico
 wwwroot\frontimg\favicon.png
 wwwroot\frontimg\footer_logo.png
 wwwroot\frontimg\logo.png
+wwwroot\images\074c5fea-fc6e-41a0-948c-699c0ade18d4.jpeg
+wwwroot\images\3094fec2-0023-4da0-a879-b7a99ab5ea89.png
+wwwroot\images\5a0b69d4-5b0e-4f77-acb4-ea2a24402405.jpg
+wwwroot\images\9c55bd9c-5bbf-4a86-befb-75559844282c.jpg
+wwwroot\images\b94d5dab-9103-4abd-a640-a6c95968e171.jpeg
+wwwroot\images\c8798115-e7fa-4616-b94a-a1314a07a712.jpeg
+wwwroot\images\e7987585-1af7-46be-8a05-993878da605c.jpeg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
