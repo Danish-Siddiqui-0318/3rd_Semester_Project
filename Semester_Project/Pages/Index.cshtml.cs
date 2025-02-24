@@ -19,11 +19,9 @@ namespace Semester_Project.Pages
 
         public void OnGet()
         {
-            // Check if user is logged in as admin
             string role = HttpContext.Session.GetString("role");
             if (role != "admin")
             {
-                // If the user is not an admin, redirect them to the login page
                 Response.Redirect("/Login");
             }
 
@@ -31,9 +29,7 @@ namespace Semester_Project.Pages
 
         public IActionResult OnPostLogout()
         {
-            // Clear the session data
             HttpContext.Session.Clear();
-            // Redirect to login page after logging out
             return RedirectToPage("/Login");
         }
 

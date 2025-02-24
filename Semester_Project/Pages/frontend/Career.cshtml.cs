@@ -30,7 +30,7 @@ namespace Semester_Project.Pages.frontend
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
-                        command.Parameters.AddWithValue("@id", id); // Correct parameter binding
+                        command.Parameters.AddWithValue("@id", id); 
 
                         using (SqlDataReader reader = command.ExecuteReader())
                         {

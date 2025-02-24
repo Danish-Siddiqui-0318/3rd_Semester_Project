@@ -17,7 +17,6 @@ namespace Semester_Project.Pages.frontend
             userInfo.name = Request.Form["name"];
             userInfo.email = Request.Form["email"];
             userInfo.password = Request.Form["password"];
-            //userInfo.role = Request.Form["role"];
             if (userInfo.name.Length == 0 || userInfo.email.Length == 0 || userInfo.password.Length == 0)
             {
                 errorMessage = "All Fields should be filled";
@@ -36,7 +35,6 @@ namespace Semester_Project.Pages.frontend
                         command.Parameters.AddWithValue("@name", userInfo.name);
                         command.Parameters.AddWithValue("@email", userInfo.email);
                         command.Parameters.AddWithValue("@password", userInfo.password);
-                        //command.Parameters.AddWithValue("@role", userInfo.role);
                         command.ExecuteNonQuery();
                     }
                 }
@@ -51,7 +49,6 @@ namespace Semester_Project.Pages.frontend
             userInfo.name = "";
             userInfo.email = "";
             userInfo.password = "";
-            //userInfo.role = "";
             Response.Redirect("../frontend/login");
         }
     }

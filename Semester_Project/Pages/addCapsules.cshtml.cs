@@ -10,14 +10,11 @@ namespace Semester_Project.Pages
 {
     public class addCapsulesModel : PageModel
     {
-        // Store error and success messages
         public string ErrorMessage { get; set; }
         public string SuccessMessage { get; set; }
 
-        // OnGet method for the page load
         public void OnGet() { }
 
-        // OnPost method to handle form submission
         public IActionResult OnPost(string ProductName, string Output, decimal CapsuleSizeMM, string MachineDimension, decimal ShippingWeightKG, IFormFile ImageURL)
         {
             if (string.IsNullOrEmpty(ProductName))
@@ -56,19 +53,16 @@ namespace Semester_Project.Pages
                 return Page();
             }
 
-            // Generate a unique file name for the uploaded image
             string fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageURL.FileName);
             string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
 
             try
             {
-                // Save the uploaded image to the server
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                     ImageURL.CopyTo(stream);
                 }
 
-                // Save product info to the database
                 string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
@@ -82,7 +76,7 @@ namespace Semester_Project.Pages
                         cmd.Parameters.AddWithValue("@CapsuleSizeMM", CapsuleSizeMM);
                         cmd.Parameters.AddWithValue("@MachineDimension", MachineDimension);
                         cmd.Parameters.AddWithValue("@ShippingWeightKG", ShippingWeightKG);
-                        cmd.Parameters.AddWithValue("@ImageURL", "/images/" + fileName); // Save the file path (relative to the root)
+                        cmd.Parameters.AddWithValue("@ImageURL", "/images/" + fileName);
 
                         cmd.ExecuteNonQuery();
                     }

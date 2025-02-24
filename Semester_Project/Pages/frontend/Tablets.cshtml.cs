@@ -19,7 +19,7 @@ namespace Semester_Project.Pages.frontend
                 if (string.IsNullOrEmpty(id))
                 {
                     Console.WriteLine("Error: Tablet ID is missing.");
-                    return; // Stop execution if id is missing
+                    return; 
                 }
 
                 string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
@@ -31,7 +31,6 @@ namespace Semester_Project.Pages.frontend
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
-                        // ✅ Adding Parameter to Prevent SQL Injection
                         command.Parameters.AddWithValue("@id", id);
 
                         using (SqlDataReader reader = command.ExecuteReader())
@@ -49,7 +48,7 @@ namespace Semester_Project.Pages.frontend
                                     ProductionCapacity = reader.GetString(6),
                                     MachineSize = reader.GetString(7),
                                     NetWeightKG = reader.GetDecimal(8).ToString(),
-                                    imageUrl = reader.IsDBNull(9) ? "/images/default.png" : reader.GetString(9) // ✅ Handling Null Image
+                                    imageUrl = reader.IsDBNull(9) ? "/images/default.png" : reader.GetString(9) 
                                 };
 
                                 listTablets.Add(tablet);

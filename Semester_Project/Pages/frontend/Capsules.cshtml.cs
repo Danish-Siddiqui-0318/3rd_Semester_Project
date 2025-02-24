@@ -15,9 +15,8 @@ namespace Semester_Project.Pages.frontend
         {
             try
             {
-                // Get the 'id' from the query parameters
                 string id = Request.Query["id"];
-                Console.WriteLine("Received ID: " + id); // Debugging
+                Console.WriteLine("Received ID: " + id); 
 
                 if (string.IsNullOrEmpty(id))
                 {
@@ -25,7 +24,6 @@ namespace Semester_Project.Pages.frontend
                     return;
                 }
 
-                // Database connection string
                 string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
@@ -35,7 +33,7 @@ namespace Semester_Project.Pages.frontend
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
-                        command.Parameters.AddWithValue("@id", id); // Parameterized Query for security
+                        command.Parameters.AddWithValue("@id", id);
 
                         using (SqlDataReader reader = command.ExecuteReader())
                         {

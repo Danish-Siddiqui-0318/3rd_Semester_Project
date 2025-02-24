@@ -41,12 +41,10 @@ namespace Semester_Project.Pages.frontend
 
                             if (VerifyPassword(password, storedPassword))
                             {
-                                // Save user info to session
                                 HttpContext.Session.SetString("name", name);
                                 HttpContext.Session.SetInt32("id", id);
                                 HttpContext.Session.SetString("role", role);
 
-                                // Redirect based on role
                                 if (role == "admin")
                                 {
                                     Response.Redirect("../frontend/index");

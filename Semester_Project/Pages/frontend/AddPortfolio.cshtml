@@ -1,38 +1,4 @@
-﻿@* @page
-@model Semester_Project.Pages.frontend.AddPortfolioModel
-@{
-    Layout = "_LayoutFront";
-}
-<style>
-    body {
-        background: linear-gradient(to right, #C9D6FF, #E2E2E2);
-       
-    }
-
-    .btn-custom {
-        border-radius: 25px;
-        transition: all 0.3s ease-in-out;
-    }
-</style>
-<h2>Add Portfolio</h2>
-
-@if (!string.IsNullOrEmpty(Model.Message))
-{
-    <p style="color: red;">@Model.Message</p>
-}
-
-<form method="post">
-    <label for="description">Portfolio Description:</label>
-    <textarea id="description" name="Description" rows="4" cols="50"></textarea>
-    <br />
-    <button type="submit">Add Portfolio</button>
-</form>
-
-<br />
-<a href="/frontend/Career">Back to Portfolio</a>
- *@
-
-
+﻿
  @page
 @model Semester_Project.Pages.frontend.AddPortfolioModel
 @{

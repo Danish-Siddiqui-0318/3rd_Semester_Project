@@ -27,7 +27,7 @@ namespace Semester_Project.Pages
                 return;
             }
 
-            string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+            string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
             using (SqlConnection connection = new SqlConnection(connectionString)) {
                 connection.Open();
                 string query = "Select id,name,password,role FROM Users Where email=@email";
@@ -42,12 +42,10 @@ namespace Semester_Project.Pages
 
                             if (VerifyPassword(password, storedPassword))
                             {
-                                // Save user info to session
                                 HttpContext.Session.SetString("name", name);
                                 HttpContext.Session.SetInt32("id", id);
                                 HttpContext.Session.SetString("role", role);
 
-                                // Redirect based on role
                                 if (role == "admin")
                                 {
                                     Response.Redirect("/Index");

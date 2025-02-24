@@ -12,14 +12,11 @@ namespace Semester_Project.Pages
 {
     public class addLiquidModel : PageModel
     {
-        // Store error and success messages
         public string ErrorMessage { get; set; }
         public string SuccessMessage { get; set; }
 
-        // OnGet method for the page load
         public void OnGet() { }
 
-        // OnPost method to handle form submission
         public IActionResult OnPost(string ModelName, decimal AirPressure, string AirVolume, int FillingSpeed, string FillingRangeML, IFormFile ImageURL)
         {
             if (string.IsNullOrEmpty(ModelName))
@@ -58,19 +55,16 @@ namespace Semester_Project.Pages
                 return Page();
             }
 
-            // Generate a unique file name for the uploaded image
             string fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageURL.FileName);
             string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
 
             try
             {
-                // Save the uploaded image to the server
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                     ImageURL.CopyTo(stream);
                 }
 
-                // Save product info to the database
                 string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
@@ -85,7 +79,7 @@ namespace Semester_Project.Pages
                         cmd.Parameters.AddWithValue("@AirVolume", AirVolume);
                         cmd.Parameters.AddWithValue("@FillingSpeed", FillingSpeed);
                         cmd.Parameters.AddWithValue("@FillingRangeML", FillingRangeML);
-                        cmd.Parameters.AddWithValue("@ImageURL", "/images/" + fileName); // Save the file path
+                        cmd.Parameters.AddWithValue("@ImageURL", "/images/" + fileName); 
 
                         cmd.ExecuteNonQuery();
                     }

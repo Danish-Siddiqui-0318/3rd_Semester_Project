@@ -13,7 +13,6 @@ namespace Semester_Project.Pages.frontend
 
         public void OnGet()
         {
-            // This method handles GET requests (optional)
         }
 
         public IActionResult OnPost()

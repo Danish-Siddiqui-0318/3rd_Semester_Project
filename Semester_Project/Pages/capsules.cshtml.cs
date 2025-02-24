@@ -13,13 +13,12 @@ namespace Semester_Project.Pages
             string role = HttpContext.Session.GetString("role");
             if (role != "admin")
             {
-                // If the user is not an admin, redirect them to the login page
                 Response.Redirect("/Login");
             }
 
             try
             {
-                String connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                String connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();

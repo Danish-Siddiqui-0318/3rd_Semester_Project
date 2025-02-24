@@ -15,7 +15,7 @@ namespace Semester_Project.Pages
             String id = Request.Query["id"];
             try
             {
-                String connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                String connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
@@ -33,7 +33,7 @@ namespace Semester_Project.Pages
                                 capsuleInfo.CapsuleSizeMM = reader.GetDecimal(3).ToString();
                                 capsuleInfo.MachineDimension = reader.GetString(4);
                                 capsuleInfo.ShippingWeightKG = reader.GetDecimal(5).ToString();
-                                capsuleInfo.image = reader.IsDBNull(6) ? "" : reader.GetString(6); // Handle NULL case
+                                capsuleInfo.image = reader.IsDBNull(6) ? "" : reader.GetString(6); 
                             }
                         }
                     }
@@ -74,16 +74,15 @@ namespace Semester_Project.Pages
                 return Page();
             }
 
-            string imageUrl = ""; // Store old or new image URL
+            string imageUrl = ""; 
 
             try
             {
-                string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
 
-                    // ✅ 1️⃣ Get the existing image URL if no new image is uploaded
                     if (ImageURL == null || ImageURL.Length == 0)
                     {
                         string selectQuery = "SELECT ImageURL FROM Capsules WHERE ID = @id";
@@ -91,12 +90,12 @@ namespace Semester_Project.Pages
                         {
                             selectCmd.Parameters.AddWithValue("@id", id);
                             var result = selectCmd.ExecuteScalar();
-                            imageUrl = result != null ? result.ToString() : ""; // Keep existing image URL
+                            imageUrl = result != null ? result.ToString() : "";
                         }
                     }
                     else
                     {
-                        // ✅ 2️⃣ Save new image and update URL
+                      
                         string fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageURL.FileName);
                         string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
 
@@ -105,10 +104,9 @@ namespace Semester_Project.Pages
                             ImageURL.CopyTo(stream);
                         }
 
-                        imageUrl = "/images/" + fileName; // New image URL
+                        imageUrl = "/images/" + fileName; 
                     }
 
-                    // ✅ 3️⃣ Update the database record
                     string query = @"UPDATE Capsules 
                                     SET ProductName = @ProductName, 
                                         Output = @Output, 
@@ -126,7 +124,7 @@ namespace Semester_Project.Pages
                         cmd.Parameters.AddWithValue("@CapsuleSizeMM", CapsuleSizeMM);
                         cmd.Parameters.AddWithValue("@MachineDimension", MachineDimension);
                         cmd.Parameters.AddWithValue("@ShippingWeightKG", ShippingWeightKG);
-                        cmd.Parameters.AddWithValue("@ImageURL", imageUrl); // Keeps old image if no new one is uploaded
+                        cmd.Parameters.AddWithValue("@ImageURL", imageUrl); 
 
                         cmd.ExecuteNonQuery();
                     }

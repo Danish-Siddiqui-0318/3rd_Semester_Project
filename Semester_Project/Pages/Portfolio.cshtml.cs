@@ -14,7 +14,7 @@ namespace Semester_Project.Pages
             if (role != "admin")
             {
                 Response.Redirect("/Login");
-                return; // Exit method to prevent further execution
+                return; 
             }
 
             try
@@ -28,7 +28,7 @@ namespace Semester_Project.Pages
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
-                            if (reader.HasRows) // Check if data exists
+                            if (reader.HasRows) 
                             {
                                 while (reader.Read())
                                 {
@@ -37,7 +37,7 @@ namespace Semester_Project.Pages
                                     portfolioInfo.email = reader.GetString(1);
                                     portfolioInfo.id = reader.GetInt32(2).ToString();
                                     portfolioInfo.description = reader.GetString(3);
-                                    portfolioInfo.created_at = reader.GetDateTime(4).ToString("yyyy-MM-dd HH:mm:ss"); // Format datetime
+                                    portfolioInfo.created_at = reader.GetDateTime(4).ToString("yyyy-MM-dd HH:mm:ss"); 
 
                                     listPortfolio.Add(portfolioInfo);
                                 }

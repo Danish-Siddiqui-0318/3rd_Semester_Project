@@ -15,7 +15,7 @@ namespace Semester_Project.Pages
             String id = Request.Query["id"];
             try
             {
-                String connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                String connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
@@ -54,7 +54,7 @@ namespace Semester_Project.Pages
         public IActionResult OnPost(
      string id, string ModelNumber, string Dies, decimal MaxPressure, decimal MaxDiameterMM,
      decimal MaxDepthFillMM, string ProductionCapacity, string MachineSize,
-     decimal NetWeightKG, IFormFile? ImageURL) // ImageURL is nullable
+     decimal NetWeightKG, IFormFile? ImageURL) 
         {
             if (string.IsNullOrEmpty(ModelNumber) || string.IsNullOrEmpty(Dies) || MaxPressure <= 0 ||
                 MaxDiameterMM <= 0 || MaxDepthFillMM <= 0 || string.IsNullOrEmpty(ProductionCapacity) ||
@@ -64,16 +64,15 @@ namespace Semester_Project.Pages
                 return Page();
             }
 
-            string imageUrl = ""; // Store the image URL (old or new)
+            string imageUrl = ""; 
 
             try
             {
-                string connectionString = "Data Source=Uzair;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
+                string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
 
-                    // 1️⃣ Retrieve the existing image URL if no new image is uploaded
                     if (ImageURL == null || ImageURL.Length == 0)
                     {
                         string selectQuery = "SELECT ImageURL FROM Tablets WHERE ID = @id";
@@ -81,12 +80,11 @@ namespace Semester_Project.Pages
                         {
                             selectCmd.Parameters.AddWithValue("@id", id);
                             var result = selectCmd.ExecuteScalar();
-                            imageUrl = result != null ? result.ToString() : ""; // Keep existing image URL
+                            imageUrl = result != null ? result.ToString() : "";
                         }
                     }
                     else
                     {
-                        // 2️⃣ Save new image to the wwwroot/images folder
                         string fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageURL.FileName);
                         string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
 
@@ -95,7 +93,7 @@ namespace Semester_Project.Pages
                             ImageURL.CopyTo(stream);
                         }
 
-                        imageUrl = "/images/" + fileName; // Update with new image URL
+                        imageUrl = "/images/" + fileName; 
                     }
 
                     // 3️⃣ Update the database record
@@ -108,7 +106,7 @@ namespace Semester_Project.Pages
                        "ProductionCapacity = @ProductionCapacity, " +
                        "MachineSize = @MachineSize, " +
                        "NetWeightKG = @NetWeightKG, " +
-                       "ImageURL = @ImageURL " + // Keeps old image if new one isn't uploaded
+                       "ImageURL = @ImageURL " + 
                        "WHERE ID = @id";
 
                     using (SqlCommand cmd = new SqlCommand(query, connection))
@@ -122,7 +120,7 @@ namespace Semester_Project.Pages
                         cmd.Parameters.AddWithValue("@ProductionCapacity", ProductionCapacity);
                         cmd.Parameters.AddWithValue("@MachineSize", MachineSize);
                         cmd.Parameters.AddWithValue("@NetWeightKG", NetWeightKG);
-                        cmd.Parameters.AddWithValue("@ImageURL", imageUrl); // This keeps the previous image if no new one is uploaded
+                        cmd.Parameters.AddWithValue("@ImageURL", imageUrl); 
 
                         cmd.ExecuteNonQuery();
                     }

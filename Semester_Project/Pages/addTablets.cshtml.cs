@@ -11,7 +11,6 @@ namespace Semester_Project.Pages
 {
     public class addTabletsModel : PageModel
     {
-        // Store error and success messages
         public string ErrorMessage { get; set; }
         public string SuccessMessage { get; set; }
 
@@ -22,7 +21,6 @@ namespace Semester_Project.Pages
             decimal MaxDepthFillMM, string ProductionCapacity, string MachineSize, 
             decimal NetWeightKG, IFormFile ImageURL)
         {
-            // Validate required fields
             if (string.IsNullOrEmpty(ModelNumber))
             {
                 ErrorMessage = "Model Number is required.";
@@ -78,19 +76,16 @@ namespace Semester_Project.Pages
             }
 
 
-            // Generate unique file name for the uploaded image
             string fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageURL.FileName);
             string filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
 
             try
             {
-                // Save image to wwwroot/images
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                     ImageURL.CopyTo(stream);
                 }
 
-                // Database connection
                 string connectionString = "Data Source=DANISHPC\\SQLEXPRESS;Initial Catalog=pharmacy;Integrated Security=True;Encrypt=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
@@ -108,7 +103,7 @@ namespace Semester_Project.Pages
                         cmd.Parameters.AddWithValue("@ProductionCapacity", ProductionCapacity);
                         cmd.Parameters.AddWithValue("@MachineSize", MachineSize);
                         cmd.Parameters.AddWithValue("@NetWeightKG", NetWeightKG);
-                        cmd.Parameters.AddWithValue("@ImageURL", "/images/" + fileName); // Save relative image path
+                        cmd.Parameters.AddWithValue("@ImageURL", "/images/" + fileName);
 
                         cmd.ExecuteNonQuery();
                     }

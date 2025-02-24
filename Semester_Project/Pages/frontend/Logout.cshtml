@@ -2,8 +2,6 @@
 @using System.Data.SqlClient;
 
 @{
-    // Clear the session data
     HttpContext.Session.Clear();
-    // Redirect to login page after logging out
     Response.Redirect("../frontend/login");
 }

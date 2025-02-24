@@ -12,7 +12,6 @@ namespace Semester_Project.Pages.frontend
         {
             string? id = Request.Query["id"];
 
-            // Ensure ID is provided before querying
             if (string.IsNullOrEmpty(id))
             {
                 Console.WriteLine("Error: ID is missing in query parameters.");
@@ -31,7 +30,7 @@ namespace Semester_Project.Pages.frontend
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
-                        command.Parameters.AddWithValue("@id", id); // Fix: Secure parameterized query
+                        command.Parameters.AddWithValue("@id", id); 
 
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
